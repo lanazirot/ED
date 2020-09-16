@@ -20,10 +20,11 @@ namespace Novelas_Literarias {
         /// </summary>
         /// <param name="index">Indice para accesar a la lista</param>
         /// <returns>El objeto del nodo accesado</returns>
+        /// <exception cref="IndexOutOfRangeException"></exception>
         public T this[int index] {
             get {
                 if (EstaVacia || index >= Size)
-                    throw new Exception("No existe el indice indicado.");
+                    throw new IndexOutOfRangeException("No existe el indice indicado.");
                 Node<T> actual = head;
                 var i = 0;
                 while (i++ < index) actual = actual.NextNode;
@@ -130,24 +131,22 @@ namespace Novelas_Literarias {
         /// <summary>
         /// Agrega un elemento a la lista.
         /// </summary>
-        /// <param name="obj">Objeto a agregar a la lista</param>
+        /// <param name="obj">Objeto a agregar a la lista. <see cref="Agregar(T[])"/></param>
+        /// <exception cref="Exception">No admite duplicados</exception>
         public void Agregar(T obj) {
-            Node<T> nuevoNodo = new Node<T>(obj);
-            if (EstaVacia) {
-                head = nuevoNodo;
-            } else if (head.Objeto.CompareTo(obj) > 0) { //lt
+            Node<T> nuevoNodo = new Node<T>(obj), prevNode = null, currentNode = head;
+            while(currentNode!= null && currentNode.Objeto.CompareTo(obj) <= 0) {
+                if (obj.Equals(currentNode.Objeto)) throw new Exception("No se permiten duplicados en esta lista.");
+                prevNode = currentNode;
+                currentNode = currentNode.NextNode;
+            }
+            if(prevNode == null) {
                 nuevoNodo.NextNode = head;
                 head = nuevoNodo;
-            } else { //gt
-                Node<T> current = head;
-                while (current.NextNode != null && current.NextNode.Objeto.CompareTo(obj) <= 0) {
-                    current = current.NextNode;
-                }
-                if (current.Objeto.Equals(obj)) throw new Exception("No puede insertar un mismo elemento dos veces");
-                nuevoNodo.NextNode = current.NextNode;
-                current.NextNode = nuevoNodo;
+            } else {
+                prevNode.NextNode = nuevoNodo;
+                nuevoNodo.NextNode = currentNode;
             }
-
             _intSize++;
         }
         /// <summary>

@@ -130,11 +130,7 @@ namespace Novelas_Literarias {
         }
 
         public bool Equals(NovelaLiteraria other) {
-            return Titulo.Equals(other.Titulo)
-                && Autor.Equals(other.Autor)
-                && NumeroDePaginas.Equals(other.NumeroDePaginas)
-                && TipoDeEdicion.Equals(other.TipoDeEdicion)
-                && Editorial.Equals(other.Editorial);
+            return Titulo.Equals(other.Titulo) && Autor.Equals(other.Autor);
         }
     }
 }

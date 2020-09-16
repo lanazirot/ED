@@ -1,6 +1,9 @@
 ﻿using System;
 using System.Windows.Forms;
-
+/*
+ 
+ @author 19100234
+ */
 namespace Novelas_Literarias {
     public partial class FormPrincipal : Form {
 
