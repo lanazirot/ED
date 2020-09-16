@@ -57,7 +57,9 @@ namespace Novelas_Literarias {
             dtpFechaDePublicacion.ResetText();
             cboClasificacionEdad.SelectedIndex = 0;
             radEdicionNormal.Checked = true;
-            picFotografiaNovela.Image = null; picFotografiaNovela.Update();
+            picFotografiaNovela.Image = picFotografiaNovela.InitialImage;
+            picFotografiaNovela.Update();
+            chkTieneVersionDigital.Checked = false;
         }
 
         private void RefrescarListaNovelas() {
@@ -133,6 +135,8 @@ namespace Novelas_Literarias {
 
                 listaNovelas.Borrar(currentNovela);
                 RefrescarListaNovelas();
+                currentNovela = null;
+                LimpiarCampos();
             }
 
 

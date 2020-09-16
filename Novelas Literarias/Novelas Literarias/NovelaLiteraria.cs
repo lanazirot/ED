@@ -82,7 +82,7 @@ namespace Novelas_Literarias {
         public DateTime FechaDePublicacion {
             get => _dtmFechaDePublicacion;
             set {
-                if (value != null && value.Date < DateTime.Today)
+                if (value != null && value.Date <= DateTime.Today)
                     _dtmFechaDePublicacion = value;
                 else throw new Exception("Ingrese una fecha valida de publicacion.");
             }

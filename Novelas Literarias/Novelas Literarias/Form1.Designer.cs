@@ -70,7 +70,6 @@
             // 
             // grbNovelasLiterariasDatos
             // 
-            resources.ApplyResources(this.grbNovelasLiterariasDatos, "grbNovelasLiterariasDatos");
             this.grbNovelasLiterariasDatos.Controls.Add(this.btnLimpiarTodo);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionDeluxe);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionNormal);
@@ -95,6 +94,7 @@
             this.grbNovelasLiterariasDatos.Controls.Add(this.cboClasificacionEdad);
             this.grbNovelasLiterariasDatos.Controls.Add(this.txtTitulo);
             this.grbNovelasLiterariasDatos.Controls.Add(this.txtPrecio);
+            resources.ApplyResources(this.grbNovelasLiterariasDatos, "grbNovelasLiterariasDatos");
             this.grbNovelasLiterariasDatos.Name = "grbNovelasLiterariasDatos";
             this.grbNovelasLiterariasDatos.TabStop = false;
             // 
@@ -174,9 +174,9 @@
             // 
             // picFotografiaNovela
             // 
-            resources.ApplyResources(this.picFotografiaNovela, "picFotografiaNovela");
             this.picFotografiaNovela.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picFotografiaNovela.Cursor = System.Windows.Forms.Cursors.Arrow;
+            resources.ApplyResources(this.picFotografiaNovela, "picFotografiaNovela");
             this.picFotografiaNovela.Name = "picFotografiaNovela";
             this.picFotografiaNovela.TabStop = false;
             // 
@@ -221,7 +221,6 @@
             // 
             // cboClasificacionEdad
             // 
-            resources.ApplyResources(this.cboClasificacionEdad, "cboClasificacionEdad");
             this.cboClasificacionEdad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboClasificacionEdad.FormattingEnabled = true;
             this.cboClasificacionEdad.Items.AddRange(new object[] {
@@ -231,6 +230,7 @@
             resources.GetString("cboClasificacionEdad.Items3"),
             resources.GetString("cboClasificacionEdad.Items4"),
             resources.GetString("cboClasificacionEdad.Items5")});
+            resources.ApplyResources(this.cboClasificacionEdad, "cboClasificacionEdad");
             this.cboClasificacionEdad.Name = "cboClasificacionEdad";
             // 
             // txtTitulo
@@ -245,25 +245,24 @@
             // 
             // btnEliminarTodasLasNovelas
             // 
-            resources.ApplyResources(this.btnEliminarTodasLasNovelas, "btnEliminarTodasLasNovelas");
             this.btnEliminarTodasLasNovelas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnEliminarTodasLasNovelas.ForeColor = System.Drawing.SystemColors.ButtonFace;
+            resources.ApplyResources(this.btnEliminarTodasLasNovelas, "btnEliminarTodasLasNovelas");
             this.btnEliminarTodasLasNovelas.Name = "btnEliminarTodasLasNovelas";
             this.btnEliminarTodasLasNovelas.UseVisualStyleBackColor = false;
             this.btnEliminarTodasLasNovelas.Click += new System.EventHandler(this.btnEliminarTodasLasNovelas_Click);
             // 
             // btnBorrarNovela
             // 
-            resources.ApplyResources(this.btnBorrarNovela, "btnBorrarNovela");
             this.btnBorrarNovela.BackColor = System.Drawing.SystemColors.Control;
             this.btnBorrarNovela.ForeColor = System.Drawing.SystemColors.ControlText;
+            resources.ApplyResources(this.btnBorrarNovela, "btnBorrarNovela");
             this.btnBorrarNovela.Name = "btnBorrarNovela";
             this.btnBorrarNovela.UseVisualStyleBackColor = false;
             this.btnBorrarNovela.Click += new System.EventHandler(this.btnBorrarNovela_Click);
             // 
             // dtgNovelas
             // 
-            resources.ApplyResources(this.dtgNovelas, "dtgNovelas");
             this.dtgNovelas.AllowUserToAddRows = false;
             this.dtgNovelas.AllowUserToDeleteRows = false;
             this.dtgNovelas.AllowUserToResizeColumns = false;
@@ -282,6 +281,8 @@
             this.clmnAutor,
             this.clmnEditorial,
             this.clmnTipoDeEdicion});
+            resources.ApplyResources(this.dtgNovelas, "dtgNovelas");
+            this.dtgNovelas.MultiSelect = false;
             this.dtgNovelas.Name = "dtgNovelas";
             this.dtgNovelas.ReadOnly = true;
             this.dtgNovelas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;

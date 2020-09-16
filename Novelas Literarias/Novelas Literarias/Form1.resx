@@ -117,122 +117,1014 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="clmnRutaDeFotografia.HeaderText" xml:space="preserve">
-    <value>Ruta de la fotografia</value>
+  <data name="&gt;&gt;btnLimpiarTodo.Name" xml:space="preserve">
+    <value>btnLimpiarTodo</value>
   </data>
-  <data name="clmnPrecio.HeaderText" xml:space="preserve">
-    <value>Precio</value>
+  <data name="&gt;&gt;btnLimpiarTodo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="lblClasificacionDeEdad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>52, 124</value>
-  </data>
-  <data name="&gt;&gt;clmnAutor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="radEdicionNormal.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
-  </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="lblRutaFotografia.TabIndex" type="System.Int32, mscorlib">
-    <value>18</value>
-  </data>
-  <data name="txtAutor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 20</value>
-  </data>
-  <data name="picFotografiaNovela.Location" type="System.Drawing.Point, System.Drawing">
-    <value>530, 19</value>
-  </data>
-  <data name="btnEliminarTodasLasNovelas.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="&gt;&gt;lblAutor.Parent" xml:space="preserve">
+  <data name="&gt;&gt;btnLimpiarTodo.Parent" xml:space="preserve">
     <value>grbNovelasLiterariasDatos</value>
   </data>
-  <data name="&gt;&gt;radEdicionDeluxe.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAbrirFotografia.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;clmnFechaDePublicacion.Name" xml:space="preserve">
-    <value>clmnFechaDePublicacion</value>
-  </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="picFotografiaNovela.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
-    <value>StretchImage</value>
-  </data>
-  <data name="&gt;&gt;lblFechaDePublicacion.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
+  <data name="&gt;&gt;btnLimpiarTodo.ZOrder" xml:space="preserve">
+    <value>0</value>
   </data>
   <data name="&gt;&gt;radEdicionDeluxe.Name" xml:space="preserve">
     <value>radEdicionDeluxe</value>
   </data>
+  <data name="&gt;&gt;radEdicionDeluxe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radEdicionDeluxe.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;radEdicionDeluxe.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
   <data name="&gt;&gt;radEdicionNormal.Name" xml:space="preserve">
     <value>radEdicionNormal</value>
   </data>
-  <data name="&gt;&gt;btnAgregarNovela.ZOrder" xml:space="preserve">
-    <value>15</value>
+  <data name="&gt;&gt;radEdicionNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblPrecio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>37, 13</value>
-  </data>
-  <data name="btnEliminarTodasLasNovelas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>614, 750</value>
-  </data>
-  <data name="&gt;&gt;lblNoPaginas.ZOrder" xml:space="preserve">
-    <value>11</value>
-  </data>
-  <data name="radEdicionDeluxe.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;grbNovelasLiterariasDatos.Name" xml:space="preserve">
+  <data name="&gt;&gt;radEdicionNormal.Parent" xml:space="preserve">
     <value>grbNovelasLiterariasDatos</value>
   </data>
-  <data name="lblNoPaginas.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
+  <data name="&gt;&gt;radEdicionNormal.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
-  <data name="cboClasificacionEdad.Items1" xml:space="preserve">
-    <value>M</value>
+  <data name="&gt;&gt;radEdicionEspecial.Name" xml:space="preserve">
+    <value>radEdicionEspecial</value>
   </data>
-  <data name="&gt;&gt;clmnAutor.Name" xml:space="preserve">
-    <value>clmnAutor</value>
+  <data name="&gt;&gt;radEdicionEspecial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;dtpFechaDePublicacion.Parent" xml:space="preserve">
+  <data name="&gt;&gt;radEdicionEspecial.Parent" xml:space="preserve">
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;radEdicionEspecial.ZOrder" xml:space="preserve">
     <value>3</value>
   </data>
+  <data name="&gt;&gt;lblEditorial.Name" xml:space="preserve">
+    <value>lblEditorial</value>
+  </data>
+  <data name="&gt;&gt;lblEditorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEditorial.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblEditorial.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.Name" xml:space="preserve">
+    <value>lblAutor</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.Name" xml:space="preserve">
+    <value>lblRutaFotografia</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.Name" xml:space="preserve">
+    <value>lblFechaDePublicacion</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.Name" xml:space="preserve">
+    <value>lblClasificacionDeEdad</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.Name" xml:space="preserve">
+    <value>lblTitulo</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;lblPrecio.Name" xml:space="preserve">
+    <value>lblPrecio</value>
+  </data>
+  <data name="&gt;&gt;lblPrecio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblPrecio.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblPrecio.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.Name" xml:space="preserve">
+    <value>lblNoPaginas</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.Name" xml:space="preserve">
+    <value>btnAbrirFotografia</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;picFotografiaNovela.Name" xml:space="preserve">
+    <value>picFotografiaNovela</value>
+  </data>
+  <data name="&gt;&gt;picFotografiaNovela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;picFotografiaNovela.Parent" xml:space="preserve">
     <value>grbNovelasLiterariasDatos</value>
   </data>
-  <data name="&gt;&gt;clmnTieneVersionDigital.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;picFotografiaNovela.ZOrder" xml:space="preserve">
+    <value>13</value>
   </data>
-  <data name="clmnEditorial.HeaderText" xml:space="preserve">
+  <data name="&gt;&gt;txtNumeroDePaginas.Name" xml:space="preserve">
+    <value>txtNumeroDePaginas</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDePaginas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDePaginas.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDePaginas.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.Name" xml:space="preserve">
+    <value>btnAgregarNovela</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.Name" xml:space="preserve">
+    <value>txtEditorial</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.Name" xml:space="preserve">
+    <value>txtAutor</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;txtRutaFotografia.Name" xml:space="preserve">
+    <value>txtRutaFotografia</value>
+  </data>
+  <data name="&gt;&gt;txtRutaFotografia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRutaFotografia.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtRutaFotografia.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.Name" xml:space="preserve">
+    <value>chkTieneVersionDigital</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.Name" xml:space="preserve">
+    <value>dtpFechaDePublicacion</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.Name" xml:space="preserve">
+    <value>cboClasificacionEdad</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;txtTitulo.Name" xml:space="preserve">
+    <value>txtTitulo</value>
+  </data>
+  <data name="&gt;&gt;txtTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTitulo.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtTitulo.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;txtPrecio.Name" xml:space="preserve">
+    <value>txtPrecio</value>
+  </data>
+  <data name="&gt;&gt;txtPrecio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPrecio.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtPrecio.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="grbNovelasLiterariasDatos.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 12</value>
+  </data>
+  <data name="grbNovelasLiterariasDatos.Size" type="System.Drawing.Size, System.Drawing">
+    <value>830, 412</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="grbNovelasLiterariasDatos.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="grbNovelasLiterariasDatos.Text" xml:space="preserve">
+    <value>Datos de la novela literaria</value>
+  </data>
+  <data name="&gt;&gt;grbNovelasLiterariasDatos.Name" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;grbNovelasLiterariasDatos.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;grbNovelasLiterariasDatos.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;grbNovelasLiterariasDatos.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="btnLimpiarTodo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 372</value>
+  </data>
+  <data name="btnLimpiarTodo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>92, 26</value>
+  </data>
+  <data name="btnLimpiarTodo.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnLimpiarTodo.Text" xml:space="preserve">
+    <value>Limpiar campos</value>
+  </data>
+  <data name="&gt;&gt;btnLimpiarTodo.Name" xml:space="preserve">
+    <value>btnLimpiarTodo</value>
+  </data>
+  <data name="&gt;&gt;btnLimpiarTodo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnLimpiarTodo.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;btnLimpiarTodo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="radEdicionDeluxe.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radEdicionDeluxe.Location" type="System.Drawing.Point, System.Drawing">
+    <value>374, 287</value>
+  </data>
+  <data name="radEdicionDeluxe.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="radEdicionDeluxe.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="radEdicionDeluxe.Text" xml:space="preserve">
+    <value>Edicion deluxe</value>
+  </data>
+  <data name="&gt;&gt;radEdicionDeluxe.Name" xml:space="preserve">
+    <value>radEdicionDeluxe</value>
+  </data>
+  <data name="&gt;&gt;radEdicionDeluxe.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radEdicionDeluxe.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;radEdicionDeluxe.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="radEdicionNormal.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radEdicionNormal.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 287</value>
+  </data>
+  <data name="radEdicionNormal.Size" type="System.Drawing.Size, System.Drawing">
+    <value>94, 17</value>
+  </data>
+  <data name="radEdicionNormal.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="radEdicionNormal.Text" xml:space="preserve">
+    <value>Edicion normal</value>
+  </data>
+  <data name="&gt;&gt;radEdicionNormal.Name" xml:space="preserve">
+    <value>radEdicionNormal</value>
+  </data>
+  <data name="&gt;&gt;radEdicionNormal.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radEdicionNormal.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;radEdicionNormal.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="radEdicionEspecial.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="radEdicionEspecial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>266, 287</value>
+  </data>
+  <data name="radEdicionEspecial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 17</value>
+  </data>
+  <data name="radEdicionEspecial.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="radEdicionEspecial.Text" xml:space="preserve">
+    <value>Edicion especial</value>
+  </data>
+  <data name="&gt;&gt;radEdicionEspecial.Name" xml:space="preserve">
+    <value>radEdicionEspecial</value>
+  </data>
+  <data name="&gt;&gt;radEdicionEspecial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;radEdicionEspecial.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;radEdicionEspecial.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="lblEditorial.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblEditorial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>116, 256</value>
+  </data>
+  <data name="lblEditorial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 13</value>
+  </data>
+  <data name="lblEditorial.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="lblEditorial.Text" xml:space="preserve">
     <value>Editorial</value>
   </data>
   <data name="&gt;&gt;lblEditorial.Name" xml:space="preserve">
     <value>lblEditorial</value>
   </data>
+  <data name="&gt;&gt;lblEditorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblEditorial.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblEditorial.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="lblAutor.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblAutor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 226</value>
+  </data>
+  <data name="lblAutor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblAutor.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="lblAutor.Text" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.Name" xml:space="preserve">
+    <value>lblAutor</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblAutor.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="lblRutaFotografia.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblRutaFotografia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>57, 200</value>
+  </data>
+  <data name="lblRutaFotografia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 13</value>
+  </data>
+  <data name="lblRutaFotografia.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="lblRutaFotografia.Text" xml:space="preserve">
+    <value>Ruta de la fotografia</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.Name" xml:space="preserve">
+    <value>lblRutaFotografia</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblRutaFotografia.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="lblFechaDePublicacion.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblFechaDePublicacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>51, 154</value>
+  </data>
+  <data name="lblFechaDePublicacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>109, 13</value>
+  </data>
+  <data name="lblFechaDePublicacion.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="lblFechaDePublicacion.Text" xml:space="preserve">
+    <value>Fecha de publicacion</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.Name" xml:space="preserve">
+    <value>lblFechaDePublicacion</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblFechaDePublicacion.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lblClasificacionDeEdad.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblClasificacionDeEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>52, 124</value>
+  </data>
+  <data name="lblClasificacionDeEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 13</value>
+  </data>
+  <data name="lblClasificacionDeEdad.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="lblClasificacionDeEdad.Text" xml:space="preserve">
+    <value>Clasificacion de edad</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.Name" xml:space="preserve">
+    <value>lblClasificacionDeEdad</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblClasificacionDeEdad.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="lblTitulo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblTitulo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>127, 98</value>
+  </data>
+  <data name="lblTitulo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>33, 13</value>
+  </data>
+  <data name="lblTitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="lblTitulo.Text" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.Name" xml:space="preserve">
+    <value>lblTitulo</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblTitulo.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="lblPrecio.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblPrecio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>123, 69</value>
+  </data>
+  <data name="lblPrecio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>37, 13</value>
+  </data>
+  <data name="lblPrecio.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="lblPrecio.Text" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="&gt;&gt;lblPrecio.Name" xml:space="preserve">
+    <value>lblPrecio</value>
+  </data>
   <data name="&gt;&gt;lblPrecio.Type" xml:space="preserve">
     <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="grbNovelasLiterariasDatos.TabIndex" type="System.Int32, mscorlib">
-    <value>0</value>
+  <data name="&gt;&gt;lblPrecio.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
   </data>
-  <data name="btnLimpiarTodo.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="&gt;&gt;lblPrecio.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="lblNoPaginas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblNoPaginas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>61, 43</value>
+  </data>
+  <data name="lblNoPaginas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>99, 13</value>
+  </data>
+  <data name="lblNoPaginas.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="lblNoPaginas.Text" xml:space="preserve">
+    <value>Numero de paginas</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.Name" xml:space="preserve">
+    <value>lblNoPaginas</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblNoPaginas.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="btnAbrirFotografia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>433, 195</value>
+  </data>
+  <data name="btnAbrirFotografia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 23</value>
+  </data>
+  <data name="btnAbrirFotografia.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="btnAbrirFotografia.Text" xml:space="preserve">
+    <value>&amp;Elegir foto</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.Name" xml:space="preserve">
+    <value>btnAbrirFotografia</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;btnAbrirFotografia.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="picFotografiaNovela.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="picFotografiaNovela.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+        AAAASUVORK5CYII=
+</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="picFotografiaNovela.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
+    <value />
+  </data>
+  <data name="picFotografiaNovela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>530, 19</value>
+  </data>
+  <data name="picFotografiaNovela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>278, 379</value>
+  </data>
+  <data name="picFotografiaNovela.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>StretchImage</value>
+  </data>
+  <data name="picFotografiaNovela.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="picFotografiaNovela.WaitOnLoad" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="&gt;&gt;picFotografiaNovela.Name" xml:space="preserve">
+    <value>picFotografiaNovela</value>
+  </data>
+  <data name="&gt;&gt;picFotografiaNovela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;picFotografiaNovela.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;picFotografiaNovela.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="txtNumeroDePaginas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 43</value>
+  </data>
+  <data name="txtNumeroDePaginas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="txtNumeroDePaginas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDePaginas.Name" xml:space="preserve">
+    <value>txtNumeroDePaginas</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDePaginas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDePaginas.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtNumeroDePaginas.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="btnAgregarNovela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>349, 323</value>
+  </data>
+  <data name="btnAgregarNovela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>149, 43</value>
+  </data>
+  <data name="btnAgregarNovela.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="btnAgregarNovela.Text" xml:space="preserve">
+    <value>&amp;Agregar novela</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.Name" xml:space="preserve">
+    <value>btnAgregarNovela</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;btnAgregarNovela.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="txtEditorial.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 249</value>
+  </data>
+  <data name="txtEditorial.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 20</value>
+  </data>
+  <data name="txtEditorial.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.Name" xml:space="preserve">
+    <value>txtEditorial</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtEditorial.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="txtAutor.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 223</value>
+  </data>
+  <data name="txtAutor.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 20</value>
+  </data>
+  <data name="txtAutor.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.Name" xml:space="preserve">
+    <value>txtAutor</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtAutor.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="txtRutaFotografia.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 197</value>
+  </data>
+  <data name="txtRutaFotografia.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 20</value>
   </data>
   <data name="txtRutaFotografia.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;clmnTitulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;txtRutaFotografia.Name" xml:space="preserve">
+    <value>txtRutaFotografia</value>
   </data>
-  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>856, 803</value>
+  <data name="&gt;&gt;txtRutaFotografia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtRutaFotografia.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtRutaFotografia.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="chkTieneVersionDigital.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="chkTieneVersionDigital.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 174</value>
+  </data>
+  <data name="chkTieneVersionDigital.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="chkTieneVersionDigital.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="chkTieneVersionDigital.Text" xml:space="preserve">
+    <value>&amp;Tiene versión digital</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.Name" xml:space="preserve">
+    <value>chkTieneVersionDigital</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;chkTieneVersionDigital.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="dtpFechaDePublicacion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 148</value>
+  </data>
+  <data name="dtpFechaDePublicacion.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
+    <value>No</value>
+  </data>
+  <data name="dtpFechaDePublicacion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>261, 20</value>
+  </data>
+  <data name="dtpFechaDePublicacion.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.Name" xml:space="preserve">
+    <value>dtpFechaDePublicacion</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;dtpFechaDePublicacion.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="cboClasificacionEdad.Items" xml:space="preserve">
+    <value>E</value>
+  </data>
+  <data name="cboClasificacionEdad.Items1" xml:space="preserve">
+    <value>M</value>
+  </data>
+  <data name="cboClasificacionEdad.Items2" xml:space="preserve">
+    <value>Y</value>
+  </data>
+  <data name="cboClasificacionEdad.Items3" xml:space="preserve">
+    <value>C</value>
+  </data>
+  <data name="cboClasificacionEdad.Items4" xml:space="preserve">
+    <value>B</value>
+  </data>
+  <data name="cboClasificacionEdad.Items5" xml:space="preserve">
+    <value>O</value>
+  </data>
+  <data name="cboClasificacionEdad.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 121</value>
+  </data>
+  <data name="cboClasificacionEdad.Size" type="System.Drawing.Size, System.Drawing">
+    <value>95, 21</value>
+  </data>
+  <data name="cboClasificacionEdad.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.Name" xml:space="preserve">
+    <value>cboClasificacionEdad</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;cboClasificacionEdad.ZOrder" xml:space="preserve">
+    <value>21</value>
   </data>
   <data name="txtTitulo.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 95</value>
@@ -240,68 +1132,185 @@
   <data name="txtTitulo.Size" type="System.Drawing.Size, System.Drawing">
     <value>332, 20</value>
   </data>
-  <data name="radEdicionNormal.Text" xml:space="preserve">
-    <value>Edicion normal</value>
+  <data name="txtTitulo.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
   </data>
-  <data name="&gt;&gt;btnLimpiarTodo.Parent" xml:space="preserve">
+  <data name="&gt;&gt;txtTitulo.Name" xml:space="preserve">
+    <value>txtTitulo</value>
+  </data>
+  <data name="&gt;&gt;txtTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtTitulo.Parent" xml:space="preserve">
     <value>grbNovelasLiterariasDatos</value>
   </data>
-  <data name="lblTitulo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>127, 98</value>
+  <data name="&gt;&gt;txtTitulo.ZOrder" xml:space="preserve">
+    <value>22</value>
   </data>
-  <data name="lblNoPaginas.Text" xml:space="preserve">
-    <value>Numero de paginas</value>
+  <data name="txtPrecio.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 69</value>
   </data>
-  <data name="lblTitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
-  </data>
-  <data name="&gt;&gt;clmnTitulo.Name" xml:space="preserve">
-    <value>clmnTitulo</value>
-  </data>
-  <data name="$this.Text" xml:space="preserve">
-    <value>Novelas Literarias</value>
-  </data>
-  <data name="btnAgregarNovela.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="&gt;&gt;picFotografiaNovela.Type" xml:space="preserve">
-    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnAgregarNovela.Size" type="System.Drawing.Size, System.Drawing">
-    <value>149, 43</value>
-  </data>
-  <data name="lblTitulo.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblNoPaginas.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="btnAbrirFotografia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>433, 195</value>
-  </data>
-  <data name="lblAutor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>128, 226</value>
-  </data>
-  <data name="&gt;&gt;picFotografiaNovela.ZOrder" xml:space="preserve">
-    <value>13</value>
-  </data>
-  <data name="grbNovelasLiterariasDatos.Size" type="System.Drawing.Size, System.Drawing">
-    <value>830, 412</value>
-  </data>
-  <data name="&gt;&gt;lblEditorial.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;lblClasificacionDeEdad.Name" xml:space="preserve">
-    <value>lblClasificacionDeEdad</value>
+  <data name="txtPrecio.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
   </data>
   <data name="txtPrecio.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
   </data>
-  <data name="&gt;&gt;txtNumeroDePaginas.Name" xml:space="preserve">
-    <value>txtNumeroDePaginas</value>
+  <data name="&gt;&gt;txtPrecio.Name" xml:space="preserve">
+    <value>txtPrecio</value>
   </data>
+  <data name="&gt;&gt;txtPrecio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtPrecio.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtPrecio.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="btnEliminarTodasLasNovelas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 750</value>
+  </data>
+  <data name="btnEliminarTodasLasNovelas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>228, 41</value>
+  </data>
+  <data name="btnEliminarTodasLasNovelas.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="btnEliminarTodasLasNovelas.Text" xml:space="preserve">
+    <value>Eliminar todas las novelas</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarTodasLasNovelas.Name" xml:space="preserve">
+    <value>btnEliminarTodasLasNovelas</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarTodasLasNovelas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarTodasLasNovelas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarTodasLasNovelas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBorrarNovela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>614, 707</value>
+  </data>
+  <data name="btnBorrarNovela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>230, 37</value>
+  </data>
+  <data name="btnBorrarNovela.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnBorrarNovela.Text" xml:space="preserve">
+    <value>&amp;Borrar novela seleccionada</value>
+  </data>
+  <data name="&gt;&gt;btnBorrarNovela.Name" xml:space="preserve">
+    <value>btnBorrarNovela</value>
+  </data>
+  <data name="&gt;&gt;btnBorrarNovela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBorrarNovela.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnBorrarNovela.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="clmnNumeroDePaginas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnNumeroDePaginas.HeaderText" xml:space="preserve">
+    <value>Numero de paginas</value>
+  </data>
+  <metadata name="clmnPrecio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnPrecio.HeaderText" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <metadata name="clmnTitulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnTitulo.HeaderText" xml:space="preserve">
+    <value>Titulo</value>
+  </data>
+  <metadata name="clmnClasificacionDeEdad.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnClasificacionDeEdad.HeaderText" xml:space="preserve">
+    <value>Clasificacion de edad</value>
+  </data>
+  <metadata name="clmnFechaDePublicacion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnFechaDePublicacion.HeaderText" xml:space="preserve">
+    <value>Fecha de publicacion</value>
+  </data>
+  <metadata name="clmnTieneVersionDigital.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnTieneVersionDigital.HeaderText" xml:space="preserve">
+    <value>Tiene version digital</value>
+  </data>
+  <metadata name="clmnRutaDeFotografia.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnRutaDeFotografia.HeaderText" xml:space="preserve">
+    <value>Ruta de la fotografia</value>
+  </data>
+  <metadata name="clmnAutor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnAutor.HeaderText" xml:space="preserve">
+    <value>Autor</value>
+  </data>
+  <metadata name="clmnEditorial.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnEditorial.HeaderText" xml:space="preserve">
+    <value>Editorial</value>
+  </data>
+  <metadata name="clmnTipoDeEdicion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnTipoDeEdicion.HeaderText" xml:space="preserve">
+    <value>Tipo de edicion</value>
+  </data>
+  <data name="dtgNovelas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 458</value>
+  </data>
+  <data name="dtgNovelas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>830, 226</value>
+  </data>
+  <data name="dtgNovelas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.Name" xml:space="preserve">
+    <value>dtgNovelas</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>856, 803</value>
   </data>
   <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -1435,864 +2444,82 @@
         AAAAAAAAAA///////AAAAAAAAAAAAAA///8=
 </value>
   </data>
-  <data name="&gt;&gt;btnLimpiarTodo.ZOrder" xml:space="preserve">
-    <value>0</value>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
   </data>
-  <data name="&gt;&gt;clmnTipoDeEdicion.Name" xml:space="preserve">
-    <value>clmnTipoDeEdicion</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;txtRutaFotografia.ZOrder" xml:space="preserve">
-    <value>18</value>
-  </data>
-  <data name="chkTieneVersionDigital.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtAutor.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="lblAutor.Size" type="System.Drawing.Size, System.Drawing">
-    <value>32, 13</value>
-  </data>
-  <data name="&gt;&gt;lblFechaDePublicacion.Name" xml:space="preserve">
-    <value>lblFechaDePublicacion</value>
-  </data>
-  <data name="&gt;&gt;btnAgregarNovela.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;clmnEditorial.Name" xml:space="preserve">
-    <value>clmnEditorial</value>
-  </data>
-  <data name="&gt;&gt;chkTieneVersionDigital.ZOrder" xml:space="preserve">
-    <value>19</value>
-  </data>
-  <data name="cboClasificacionEdad.Items3" xml:space="preserve">
-    <value>C</value>
-  </data>
-  <data name="&gt;&gt;clmnRutaDeFotografia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblTitulo.Name" xml:space="preserve">
-    <value>lblTitulo</value>
-  </data>
-  <data name="&gt;&gt;lblPrecio.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.Name" xml:space="preserve">
-    <value>dtgNovelas</value>
-  </data>
-  <data name="&gt;&gt;txtTitulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblEditorial.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="lblRutaFotografia.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
-    <value>openFileDialog</value>
-  </data>
-  <data name="&gt;&gt;btnBorrarNovela.Name" xml:space="preserve">
-    <value>btnBorrarNovela</value>
-  </data>
-  <data name="txtNumeroDePaginas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 43</value>
-  </data>
-  <data name="radEdicionEspecial.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblEditorial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>44, 13</value>
-  </data>
-  <data name="lblClasificacionDeEdad.TabIndex" type="System.Int32, mscorlib">
-    <value>16</value>
-  </data>
-  <data name="&gt;&gt;cboClasificacionEdad.Name" xml:space="preserve">
-    <value>cboClasificacionEdad</value>
-  </data>
-  <data name="&gt;&gt;txtAutor.ZOrder" xml:space="preserve">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;radEdicionDeluxe.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;txtTitulo.ZOrder" xml:space="preserve">
-    <value>22</value>
-  </data>
-  <data name="lblFechaDePublicacion.Text" xml:space="preserve">
-    <value>Fecha de publicacion</value>
-  </data>
-  <data name="&gt;&gt;chkTieneVersionDigital.Name" xml:space="preserve">
-    <value>chkTieneVersionDigital</value>
-  </data>
-  <data name="lblEditorial.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;lblClasificacionDeEdad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBorrarNovela.Location" type="System.Drawing.Point, System.Drawing">
-    <value>614, 707</value>
-  </data>
-  <data name="&gt;&gt;radEdicionEspecial.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtNumeroDePaginas.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;btnEliminarTodasLasNovelas.Name" xml:space="preserve">
-    <value>btnEliminarTodasLasNovelas</value>
-  </data>
-  <data name="cboClasificacionEdad.Items5" xml:space="preserve">
-    <value>O</value>
-  </data>
-  <data name="clmnClasificacionDeEdad.HeaderText" xml:space="preserve">
-    <value>Clasificacion de edad</value>
-  </data>
-  <data name="picFotografiaNovela.Size" type="System.Drawing.Size, System.Drawing">
-    <value>278, 379</value>
-  </data>
-  <data name="dtgNovelas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 458</value>
-  </data>
-  <data name="lblFechaDePublicacion.TabIndex" type="System.Int32, mscorlib">
-    <value>17</value>
-  </data>
-  <data name="&gt;&gt;btnLimpiarTodo.Name" xml:space="preserve">
-    <value>btnLimpiarTodo</value>
-  </data>
-  <data name="&gt;&gt;txtNumeroDePaginas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="cboClasificacionEdad.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 121</value>
-  </data>
-  <data name="lblNoPaginas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>61, 43</value>
-  </data>
-  <data name="btnBorrarNovela.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Novelas Literarias</value>
   </data>
   <data name="&gt;&gt;clmnNumeroDePaginas.Name" xml:space="preserve">
     <value>clmnNumeroDePaginas</value>
   </data>
-  <data name="&gt;&gt;txtAutor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="dtgNovelas.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="grbNovelasLiterariasDatos.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 12</value>
-  </data>
-  <data name="lblAutor.TabIndex" type="System.Int32, mscorlib">
-    <value>19</value>
-  </data>
-  <data name="txtAutor.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="&gt;&gt;btnEliminarTodasLasNovelas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtRutaFotografia.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="lblAutor.Text" xml:space="preserve">
-    <value>Autor</value>
-  </data>
-  <data name="&gt;&gt;grbNovelasLiterariasDatos.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="&gt;&gt;lblNoPaginas.Name" xml:space="preserve">
-    <value>lblNoPaginas</value>
-  </data>
-  <data name="chkTieneVersionDigital.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
-  </data>
-  <data name="txtAutor.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 223</value>
-  </data>
-  <data name="&gt;&gt;txtPrecio.ZOrder" xml:space="preserve">
-    <value>23</value>
-  </data>
-  <data name="&gt;&gt;btnAgregarNovela.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnLimpiarTodo.Text" xml:space="preserve">
-    <value>Limpiar campos</value>
-  </data>
-  <data name="lblAutor.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="radEdicionEspecial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 17</value>
-  </data>
-  <data name="&gt;&gt;radEdicionEspecial.Name" xml:space="preserve">
-    <value>radEdicionEspecial</value>
-  </data>
-  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
-    <value>CenterScreen</value>
-  </data>
-  <data name="&gt;&gt;lblPrecio.ZOrder" xml:space="preserve">
-    <value>10</value>
-  </data>
-  <data name="lblEditorial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>116, 256</value>
-  </data>
   <data name="&gt;&gt;clmnNumeroDePaginas.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="picFotografiaNovela.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="&gt;&gt;lblRutaFotografia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtRutaFotografia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 197</value>
-  </data>
-  <data name="&gt;&gt;dtpFechaDePublicacion.ZOrder" xml:space="preserve">
-    <value>20</value>
-  </data>
-  <data name="txtRutaFotografia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
-  </data>
-  <data name="dtgNovelas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>830, 226</value>
-  </data>
-  <data name="clmnFechaDePublicacion.HeaderText" xml:space="preserve">
-    <value>Fecha de publicacion</value>
-  </data>
-  <data name="txtEditorial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 249</value>
-  </data>
-  <data name="&gt;&gt;lblFechaDePublicacion.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="&gt;&gt;lblFechaDePublicacion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="radEdicionDeluxe.Text" xml:space="preserve">
-    <value>Edicion deluxe</value>
-  </data>
-  <data name="lblNoPaginas.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
-  </data>
-  <data name="picFotografiaNovela.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="lblEditorial.Text" xml:space="preserve">
-    <value>Editorial</value>
-  </data>
-  <data name="&gt;&gt;dtpFechaDePublicacion.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DateTimePicker, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="radEdicionNormal.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;btnLimpiarTodo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblClasificacionDeEdad.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;txtPrecio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="txtPrecio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 69</value>
-  </data>
-  <data name="txtNumeroDePaginas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
-  </data>
-  <data name="btnAbrirFotografia.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="radEdicionNormal.TabIndex" type="System.Int32, mscorlib">
-    <value>22</value>
-  </data>
-  <data name="picFotografiaNovela.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        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
-</value>
-  </data>
-  <data name="&gt;&gt;cboClasificacionEdad.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;chkTieneVersionDigital.Type" xml:space="preserve">
-    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblTitulo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>33, 13</value>
-  </data>
-  <data name="lblPrecio.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="chkTieneVersionDigital.Text" xml:space="preserve">
-    <value>&amp;Tiene versión digital</value>
-  </data>
-  <data name="&gt;&gt;chkTieneVersionDigital.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;radEdicionNormal.ZOrder" xml:space="preserve">
-    <value>2</value>
-  </data>
-  <data name="radEdicionEspecial.TabIndex" type="System.Int32, mscorlib">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;lblTitulo.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;clmnTieneVersionDigital.Name" xml:space="preserve">
-    <value>clmnTieneVersionDigital</value>
-  </data>
-  <data name="cboClasificacionEdad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>95, 21</value>
-  </data>
-  <data name="lblRutaFotografia.Location" type="System.Drawing.Point, System.Drawing">
-    <value>57, 200</value>
-  </data>
-  <data name="lblPrecio.TabIndex" type="System.Int32, mscorlib">
-    <value>14</value>
-  </data>
-  <data name="cboClasificacionEdad.Items4" xml:space="preserve">
-    <value>B</value>
-  </data>
-  <data name="chkTieneVersionDigital.Size" type="System.Drawing.Size, System.Drawing">
-    <value>120, 17</value>
-  </data>
-  <data name="&gt;&gt;txtEditorial.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="lblClasificacionDeEdad.Size" type="System.Drawing.Size, System.Drawing">
-    <value>108, 13</value>
-  </data>
-  <data name="lblRutaFotografia.Text" xml:space="preserve">
-    <value>Ruta de la fotografia</value>
-  </data>
-  <data name="lblFechaDePublicacion.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="picFotografiaNovela.InitialImage" type="System.Resources.ResXNullRef, System.Windows.Forms">
-    <value />
-  </data>
-  <data name="clmnNumeroDePaginas.HeaderText" xml:space="preserve">
-    <value>Numero de paginas</value>
-  </data>
-  <data name="&gt;&gt;lblAutor.Name" xml:space="preserve">
-    <value>lblAutor</value>
-  </data>
-  <data name="radEdicionEspecial.Text" xml:space="preserve">
-    <value>Edicion especial</value>
-  </data>
-  <data name="&gt;&gt;cboClasificacionEdad.Type" xml:space="preserve">
-    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnAbrirFotografia.ZOrder" xml:space="preserve">
-    <value>12</value>
-  </data>
-  <data name="clmnAutor.HeaderText" xml:space="preserve">
-    <value>Autor</value>
-  </data>
-  <data name="&gt;&gt;txtPrecio.Name" xml:space="preserve">
-    <value>txtPrecio</value>
-  </data>
-  <data name="btnLimpiarTodo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>92, 26</value>
-  </data>
-  <data name="&gt;&gt;grbNovelasLiterariasDatos.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnBorrarNovela.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Name" xml:space="preserve">
-    <value>FormPrincipal</value>
-  </data>
-  <data name="cboClasificacionEdad.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="txtEditorial.Size" type="System.Drawing.Size, System.Drawing">
-    <value>332, 20</value>
-  </data>
-  <data name="btnAbrirFotografia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>65, 23</value>
-  </data>
-  <data name="&gt;&gt;btnBorrarNovela.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnAbrirFotografia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="lblPrecio.Location" type="System.Drawing.Point, System.Drawing">
-    <value>123, 69</value>
-  </data>
-  <data name="btnAgregarNovela.Text" xml:space="preserve">
-    <value>&amp;Agregar novela</value>
-  </data>
-  <data name="radEdicionDeluxe.TabIndex" type="System.Int32, mscorlib">
-    <value>23</value>
-  </data>
-  <data name="txtPrecio.Size" type="System.Drawing.Size, System.Drawing">
-    <value>55, 20</value>
-  </data>
-  <data name="dtpFechaDePublicacion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 148</value>
-  </data>
-  <data name="&gt;&gt;grbNovelasLiterariasDatos.Type" xml:space="preserve">
-    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;$this.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnBorrarNovela.ZOrder" xml:space="preserve">
-    <value>0</value>
-  </data>
-  <data name="btnEliminarTodasLasNovelas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>228, 41</value>
-  </data>
-  <data name="picFotografiaNovela.WaitOnLoad" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;clmnPrecio.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnAgregarNovela.Location" type="System.Drawing.Point, System.Drawing">
-    <value>349, 323</value>
-  </data>
-  <data name="txtNumeroDePaginas.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;txtTitulo.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="radEdicionNormal.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 287</value>
-  </data>
-  <data name="&gt;&gt;lblNoPaginas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblAutor.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="clmnTipoDeEdicion.HeaderText" xml:space="preserve">
-    <value>Tipo de edicion</value>
-  </data>
-  <data name="&gt;&gt;lblRutaFotografia.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;lblClasificacionDeEdad.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="lblPrecio.Text" xml:space="preserve">
-    <value>Precio</value>
-  </data>
-  <data name="&gt;&gt;lblAutor.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBorrarNovela.Text" xml:space="preserve">
-    <value>&amp;Borrar novela seleccionada</value>
-  </data>
-  <data name="dtpFechaDePublicacion.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
-  </data>
-  <data name="radEdicionDeluxe.Size" type="System.Drawing.Size, System.Drawing">
-    <value>94, 17</value>
-  </data>
-  <data name="radEdicionDeluxe.Location" type="System.Drawing.Point, System.Drawing">
-    <value>374, 287</value>
-  </data>
-  <data name="&gt;&gt;btnAgregarNovela.Name" xml:space="preserve">
-    <value>btnAgregarNovela</value>
-  </data>
-  <data name="&gt;&gt;btnAbrirFotografia.Name" xml:space="preserve">
-    <value>btnAbrirFotografia</value>
-  </data>
-  <data name="&gt;&gt;lblTitulo.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;clmnClasificacionDeEdad.Name" xml:space="preserve">
-    <value>clmnClasificacionDeEdad</value>
-  </data>
-  <data name="radEdicionEspecial.Location" type="System.Drawing.Point, System.Drawing">
-    <value>266, 287</value>
-  </data>
-  <data name="&gt;&gt;radEdicionNormal.Type" xml:space="preserve">
-    <value>System.Windows.Forms.RadioButton, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnEliminarTodasLasNovelas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblRutaFotografia.ZOrder" xml:space="preserve">
-    <value>6</value>
-  </data>
-  <data name="&gt;&gt;clmnEditorial.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="btnBorrarNovela.Size" type="System.Drawing.Size, System.Drawing">
-    <value>230, 37</value>
-  </data>
-  <data name="grbNovelasLiterariasDatos.Text" xml:space="preserve">
-    <value>Datos de la novela literaria</value>
-  </data>
-  <data name="lblTitulo.Text" xml:space="preserve">
-    <value>Titulo</value>
-  </data>
-  <data name="&gt;&gt;txtRutaFotografia.Name" xml:space="preserve">
-    <value>txtRutaFotografia</value>
-  </data>
-  <data name="&gt;&gt;clmnRutaDeFotografia.Name" xml:space="preserve">
-    <value>clmnRutaDeFotografia</value>
-  </data>
-  <data name="txtTitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
-  </data>
-  <data name="btnEliminarTodasLasNovelas.Text" xml:space="preserve">
-    <value>Eliminar todas las novelas</value>
-  </data>
-  <data name="lblFechaDePublicacion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>109, 13</value>
-  </data>
-  <data name="lblClasificacionDeEdad.Text" xml:space="preserve">
-    <value>Clasificacion de edad</value>
-  </data>
-  <data name="dtpFechaDePublicacion.Size" type="System.Drawing.Size, System.Drawing">
-    <value>261, 20</value>
-  </data>
-  <data name="&gt;&gt;cboClasificacionEdad.ZOrder" xml:space="preserve">
-    <value>21</value>
-  </data>
-  <data name="&gt;&gt;lblPrecio.Name" xml:space="preserve">
-    <value>lblPrecio</value>
   </data>
   <data name="&gt;&gt;clmnPrecio.Name" xml:space="preserve">
     <value>clmnPrecio</value>
   </data>
-  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;clmnTipoDeEdicion.Type" xml:space="preserve">
+  <data name="&gt;&gt;clmnPrecio.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtPrecio.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
+  <data name="&gt;&gt;clmnTitulo.Name" xml:space="preserve">
+    <value>clmnTitulo</value>
   </data>
-  <data name="clmnTitulo.HeaderText" xml:space="preserve">
-    <value>Titulo</value>
+  <data name="&gt;&gt;clmnTitulo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="lblNoPaginas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>99, 13</value>
-  </data>
-  <data name="btnAbrirFotografia.Text" xml:space="preserve">
-    <value>&amp;Elegir foto</value>
-  </data>
-  <data name="lblFechaDePublicacion.Location" type="System.Drawing.Point, System.Drawing">
-    <value>51, 154</value>
-  </data>
-  <data name="openFileDialog.Filter" xml:space="preserve">
-    <value>Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png</value>
-  </data>
-  <data name="cboClasificacionEdad.Items2" xml:space="preserve">
-    <value>Y</value>
-  </data>
-  <data name="lblEditorial.TabIndex" type="System.Int32, mscorlib">
-    <value>20</value>
-  </data>
-  <data name="&gt;&gt;txtNumeroDePaginas.ZOrder" xml:space="preserve">
-    <value>14</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;txtEditorial.Name" xml:space="preserve">
-    <value>txtEditorial</value>
-  </data>
-  <data name="lblRutaFotografia.Size" type="System.Drawing.Size, System.Drawing">
-    <value>103, 13</value>
-  </data>
-  <data name="dtpFechaDePublicacion.RightToLeft" type="System.Windows.Forms.RightToLeft, System.Windows.Forms">
-    <value>No</value>
-  </data>
-  <data name="btnLimpiarTodo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>6, 372</value>
-  </data>
-  <data name="lblClasificacionDeEdad.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="&gt;&gt;txtEditorial.ZOrder" xml:space="preserve">
-    <value>16</value>
-  </data>
-  <data name="txtEditorial.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;btnEliminarTodasLasNovelas.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;radEdicionEspecial.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
+  <data name="&gt;&gt;clmnClasificacionDeEdad.Name" xml:space="preserve">
+    <value>clmnClasificacionDeEdad</value>
   </data>
   <data name="&gt;&gt;clmnClasificacionDeEdad.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="clmnTieneVersionDigital.HeaderText" xml:space="preserve">
-    <value>Tiene version digital</value>
-  </data>
-  <data name="&gt;&gt;dtpFechaDePublicacion.Name" xml:space="preserve">
-    <value>dtpFechaDePublicacion</value>
-  </data>
-  <data name="&gt;&gt;radEdicionNormal.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
-  </data>
-  <data name="&gt;&gt;lblRutaFotografia.Name" xml:space="preserve">
-    <value>lblRutaFotografia</value>
-  </data>
-  <data name="chkTieneVersionDigital.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 174</value>
-  </data>
-  <data name="&gt;&gt;picFotografiaNovela.Name" xml:space="preserve">
-    <value>picFotografiaNovela</value>
-  </data>
-  <data name="&gt;&gt;txtAutor.Name" xml:space="preserve">
-    <value>txtAutor</value>
-  </data>
-  <data name="&gt;&gt;lblTitulo.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="&gt;&gt;lblEditorial.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;clmnFechaDePublicacion.Name" xml:space="preserve">
+    <value>clmnFechaDePublicacion</value>
   </data>
   <data name="&gt;&gt;clmnFechaDePublicacion.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtRutaFotografia.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;clmnTieneVersionDigital.Name" xml:space="preserve">
+    <value>clmnTieneVersionDigital</value>
   </data>
-  <data name="&gt;&gt;txtEditorial.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  <data name="&gt;&gt;clmnTieneVersionDigital.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewCheckBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;radEdicionDeluxe.Parent" xml:space="preserve">
-    <value>grbNovelasLiterariasDatos</value>
+  <data name="&gt;&gt;clmnRutaDeFotografia.Name" xml:space="preserve">
+    <value>clmnRutaDeFotografia</value>
   </data>
-  <data name="cboClasificacionEdad.Items" xml:space="preserve">
-    <value>E</value>
+  <data name="&gt;&gt;clmnRutaDeFotografia.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;txtTitulo.Name" xml:space="preserve">
-    <value>txtTitulo</value>
+  <data name="&gt;&gt;clmnAutor.Name" xml:space="preserve">
+    <value>clmnAutor</value>
   </data>
-  <metadata name="clmnRutaDeFotografia.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnAutor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnPrecio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnTipoDeEdicion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnTieneVersionDigital.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnEditorial.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <metadata name="clmnClasificacionDeEdad.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnTitulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnNumeroDePaginas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
-  <metadata name="clmnFechaDePublicacion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
-    <value>True</value>
-  </metadata>
+  <data name="&gt;&gt;clmnAutor.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmnEditorial.Name" xml:space="preserve">
+    <value>clmnEditorial</value>
+  </data>
+  <data name="&gt;&gt;clmnEditorial.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmnTipoDeEdicion.Name" xml:space="preserve">
+    <value>clmnTipoDeEdicion</value>
+  </data>
+  <data name="&gt;&gt;clmnTipoDeEdicion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormPrincipal</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
 </root>
