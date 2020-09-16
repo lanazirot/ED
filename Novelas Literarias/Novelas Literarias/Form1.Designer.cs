@@ -24,6 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grbNovelasLiterariasDatos = new System.Windows.Forms.GroupBox();
             this.btnLimpiarTodo = new System.Windows.Forms.Button();
             this.radEdicionDeluxe = new System.Windows.Forms.RadioButton();
@@ -296,10 +297,11 @@
             // 
             // clmnPrecio
             // 
+            dataGridViewCellStyle2.Format = "C";
+            this.clmnPrecio.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(this.clmnPrecio, "clmnPrecio");
             this.clmnPrecio.Name = "clmnPrecio";
             this.clmnPrecio.ReadOnly = true;
-            this.clmnPrecio.DefaultCellStyle.Format = "C";
             // 
             // clmnTitulo
             // 

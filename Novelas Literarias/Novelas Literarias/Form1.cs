@@ -28,7 +28,7 @@ namespace Novelas_Literarias {
             try {
                 miNovelaLiteraria = new NovelaLiteraria() {
                     Autor = txtAutor.Text,
-                    ClasificacionDeEdad = char.Parse(cboClasificacionEdad.SelectedItem.ToString()),
+                    ClasificacionDeEdad = cboClasificacionEdad.SelectedItem.ToString()[0],
                     Editorial = txtEditorial.Text,
                     FechaDePublicacion = dtpFechaDePublicacion.Value,
                     NumeroDePaginas = int.Parse(txtNumeroDePaginas.Text),
@@ -85,7 +85,21 @@ namespace Novelas_Literarias {
             txtTitulo.Text = currentNovela.Titulo;
             chkTieneVersionDigital.Checked = currentNovela.TieneVersionDigital;
             dtpFechaDePublicacion.Value = currentNovela.FechaDePublicacion;
-            cboClasificacionEdad.SelectedItem = currentNovela.ClasificacionDeEdad.ToString();
+
+                 /* 0 E - Everyone (para todos)
+                    1 M - Mature (17+)
+                    2 Y - Young (Jovenes de 13 a 16 años)
+                    3 C - Adultos (18+)
+                    4 B - Babies ( menores de 13)
+                    5 O - Old (50+)*/
+            switch (currentNovela.ClasificacionDeEdad) {
+                case 'E': cboClasificacionEdad.SelectedIndex = 0; break;
+                case 'M': cboClasificacionEdad.SelectedIndex = 1;  break;
+                case 'Y': cboClasificacionEdad.SelectedIndex = 2; break;
+                case 'O': cboClasificacionEdad.SelectedIndex = 5; break;
+                case 'B': cboClasificacionEdad.SelectedIndex = 4; break;
+                case 'C': cboClasificacionEdad.SelectedIndex = 3; break;
+            }
 
             try {
 
