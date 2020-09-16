@@ -68,7 +68,7 @@ namespace Novelas_Literarias {
                 if (File.Exists(value))
                     _strRutaFotografia = value;
                 else
-                    throw new Exception("No existe la ruta especificada o ingresa una ruta.");
+                    throw new Exception("No existe una fotografia en la ruta especificada.");
             }
         }
 
