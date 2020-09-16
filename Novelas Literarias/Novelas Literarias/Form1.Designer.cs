@@ -174,7 +174,7 @@
             // 
             // picFotografiaNovela
             // 
-            this.picFotografiaNovela.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
+            this.picFotografiaNovela.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.picFotografiaNovela.Cursor = System.Windows.Forms.Cursors.Arrow;
             resources.ApplyResources(this.picFotografiaNovela, "picFotografiaNovela");
             this.picFotografiaNovela.Name = "picFotografiaNovela";
@@ -232,6 +232,7 @@
             resources.GetString("cboClasificacionEdad.Items5")});
             resources.ApplyResources(this.cboClasificacionEdad, "cboClasificacionEdad");
             this.cboClasificacionEdad.Name = "cboClasificacionEdad";
+          
             // 
             // txtTitulo
             // 
@@ -352,7 +353,6 @@
             // 
             // openFileDialog
             // 
-            this.openFileDialog.FileName = "openFileDialog1";
             resources.ApplyResources(this.openFileDialog, "openFileDialog");
             this.openFileDialog.InitialDirectory = "C:\\";
             // 

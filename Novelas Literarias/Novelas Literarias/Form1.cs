@@ -6,7 +6,6 @@ namespace Novelas_Literarias {
 
         private ListaOrdenada<NovelaLiteraria> listaNovelas;
         private NovelaLiteraria currentNovela = null;
-
         public FormPrincipal() {
             InitializeComponent();
             listaNovelas = new ListaOrdenada<NovelaLiteraria>();
@@ -60,6 +59,8 @@ namespace Novelas_Literarias {
             picFotografiaNovela.Image = picFotografiaNovela.InitialImage;
             picFotografiaNovela.Update();
             chkTieneVersionDigital.Checked = false;
+
+            currentNovela = null;
         }
 
         private void RefrescarListaNovelas() {
@@ -156,5 +157,6 @@ namespace Novelas_Literarias {
         private void btnLimpiarTodo_Click(object sender, EventArgs e) {
             LimpiarCampos();
         }
+
     }
 }
