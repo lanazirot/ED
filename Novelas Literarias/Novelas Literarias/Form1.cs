@@ -97,11 +97,11 @@ namespace Novelas_Literarias {
                     5 O - Old (50+)*/
             switch (currentNovela.ClasificacionDeEdad) {
                 case 'E': cboClasificacionEdad.SelectedIndex = 0; break;
-                case 'M': cboClasificacionEdad.SelectedIndex = 1;  break;
+                case 'M': cboClasificacionEdad.SelectedIndex = 1; break;
                 case 'Y': cboClasificacionEdad.SelectedIndex = 2; break;
-                case 'O': cboClasificacionEdad.SelectedIndex = 5; break;
-                case 'B': cboClasificacionEdad.SelectedIndex = 4; break;
                 case 'C': cboClasificacionEdad.SelectedIndex = 3; break;
+                case 'B': cboClasificacionEdad.SelectedIndex = 4; break;
+                case 'O': cboClasificacionEdad.SelectedIndex = 5; break;
             }
 
             try {
