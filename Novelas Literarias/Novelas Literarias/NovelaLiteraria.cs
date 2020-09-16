@@ -134,6 +134,7 @@ namespace Novelas_Literarias {
                 && Autor.Equals(other.Autor)
                 && NumeroDePaginas.Equals(other.NumeroDePaginas)
                 && TipoDeEdicion.Equals(other.TipoDeEdicion);
+                && Editorial.Equals(other.Editorial);
         }
     }
 }

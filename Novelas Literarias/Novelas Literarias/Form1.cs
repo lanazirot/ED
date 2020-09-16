@@ -127,7 +127,7 @@ namespace Novelas_Literarias {
 
         private void btnBorrarNovela_Click(object sender, EventArgs e) {
             if (currentNovela == null) {
-                MessageBox.Show("Selecciona una novela", "Error fatal", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                MessageBox.Show("Selecciona una novela", "Error fatal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
 
@@ -174,6 +174,11 @@ namespace Novelas_Literarias {
                 TipoDeEdicion = dtgNovelas.CurrentRow.Cells[9].Value.ToString()
             };
             VisualizarNovela(currentNovela);
+        }
+
+        private void btnCantidadDeNovelas_Click(object sender, EventArgs e) {
+            MessageBox.Show(listaNovelas.Size + " novelas registradas", "Informacion de novelas",
+                MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

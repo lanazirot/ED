@@ -24,7 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grbNovelasLiterariasDatos = new System.Windows.Forms.GroupBox();
             this.btnLimpiarTodo = new System.Windows.Forms.Button();
             this.radEdicionDeluxe = new System.Windows.Forms.RadioButton();
@@ -64,6 +64,7 @@
             this.clmnEditorial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnTipoDeEdicion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.btnCantidadDeNovelas = new System.Windows.Forms.Button();
             this.grbNovelasLiterariasDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFotografiaNovela)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgNovelas)).BeginInit();
@@ -297,8 +298,8 @@
             // 
             // clmnPrecio
             // 
-            dataGridViewCellStyle2.Format = "C";
-            this.clmnPrecio.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle1.Format = "C";
+            this.clmnPrecio.DefaultCellStyle = dataGridViewCellStyle1;
             resources.ApplyResources(this.clmnPrecio, "clmnPrecio");
             this.clmnPrecio.Name = "clmnPrecio";
             this.clmnPrecio.ReadOnly = true;
@@ -358,10 +359,18 @@
             resources.ApplyResources(this.openFileDialog, "openFileDialog");
             this.openFileDialog.InitialDirectory = "C:\\";
             // 
+            // btnCantidadDeNovelas
+            // 
+            resources.ApplyResources(this.btnCantidadDeNovelas, "btnCantidadDeNovelas");
+            this.btnCantidadDeNovelas.Name = "btnCantidadDeNovelas";
+            this.btnCantidadDeNovelas.UseVisualStyleBackColor = true;
+            this.btnCantidadDeNovelas.Click += new System.EventHandler(this.btnCantidadDeNovelas_Click);
+            // 
             // FormPrincipal
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.btnCantidadDeNovelas);
             this.Controls.Add(this.btnBorrarNovela);
             this.Controls.Add(this.btnEliminarTodasLasNovelas);
             this.Controls.Add(this.dtgNovelas);
@@ -419,6 +428,7 @@
         private System.Windows.Forms.Button btnBorrarNovela;
         private System.Windows.Forms.Button btnEliminarTodasLasNovelas;
         private System.Windows.Forms.Button btnLimpiarTodo;
+        private System.Windows.Forms.Button btnCantidadDeNovelas;
     }
 }
 
