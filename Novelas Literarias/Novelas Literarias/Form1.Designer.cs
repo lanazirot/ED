@@ -70,6 +70,7 @@
             // 
             // grbNovelasLiterariasDatos
             // 
+            resources.ApplyResources(this.grbNovelasLiterariasDatos, "grbNovelasLiterariasDatos");
             this.grbNovelasLiterariasDatos.Controls.Add(this.btnLimpiarTodo);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionDeluxe);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionNormal);
@@ -94,265 +95,175 @@
             this.grbNovelasLiterariasDatos.Controls.Add(this.cboClasificacionEdad);
             this.grbNovelasLiterariasDatos.Controls.Add(this.txtTitulo);
             this.grbNovelasLiterariasDatos.Controls.Add(this.txtPrecio);
-            this.grbNovelasLiterariasDatos.Location = new System.Drawing.Point(12, 12);
             this.grbNovelasLiterariasDatos.Name = "grbNovelasLiterariasDatos";
-            this.grbNovelasLiterariasDatos.Size = new System.Drawing.Size(830, 412);
-            this.grbNovelasLiterariasDatos.TabIndex = 0;
             this.grbNovelasLiterariasDatos.TabStop = false;
-            this.grbNovelasLiterariasDatos.Text = "Datos de la novela literaria";
             // 
             // btnLimpiarTodo
             // 
-            this.btnLimpiarTodo.Location = new System.Drawing.Point(6, 372);
+            resources.ApplyResources(this.btnLimpiarTodo, "btnLimpiarTodo");
             this.btnLimpiarTodo.Name = "btnLimpiarTodo";
-            this.btnLimpiarTodo.Size = new System.Drawing.Size(92, 26);
-            this.btnLimpiarTodo.TabIndex = 24;
-            this.btnLimpiarTodo.Text = "Limpiar campos";
             this.btnLimpiarTodo.UseVisualStyleBackColor = true;
             this.btnLimpiarTodo.Click += new System.EventHandler(this.btnLimpiarTodo_Click);
             // 
             // radEdicionDeluxe
             // 
-            this.radEdicionDeluxe.AutoSize = true;
-            this.radEdicionDeluxe.Location = new System.Drawing.Point(374, 287);
+            resources.ApplyResources(this.radEdicionDeluxe, "radEdicionDeluxe");
             this.radEdicionDeluxe.Name = "radEdicionDeluxe";
-            this.radEdicionDeluxe.Size = new System.Drawing.Size(94, 17);
-            this.radEdicionDeluxe.TabIndex = 23;
-            this.radEdicionDeluxe.Text = "Edicion deluxe";
             this.radEdicionDeluxe.UseVisualStyleBackColor = true;
             // 
             // radEdicionNormal
             // 
-            this.radEdicionNormal.AutoSize = true;
+            resources.ApplyResources(this.radEdicionNormal, "radEdicionNormal");
             this.radEdicionNormal.Checked = true;
-            this.radEdicionNormal.Location = new System.Drawing.Point(166, 287);
             this.radEdicionNormal.Name = "radEdicionNormal";
-            this.radEdicionNormal.Size = new System.Drawing.Size(94, 17);
-            this.radEdicionNormal.TabIndex = 22;
             this.radEdicionNormal.TabStop = true;
-            this.radEdicionNormal.Text = "Edicion normal";
             this.radEdicionNormal.UseVisualStyleBackColor = true;
             // 
             // radEdicionEspecial
             // 
-            this.radEdicionEspecial.AutoSize = true;
-            this.radEdicionEspecial.Location = new System.Drawing.Point(266, 287);
+            resources.ApplyResources(this.radEdicionEspecial, "radEdicionEspecial");
             this.radEdicionEspecial.Name = "radEdicionEspecial";
-            this.radEdicionEspecial.Size = new System.Drawing.Size(102, 17);
-            this.radEdicionEspecial.TabIndex = 21;
-            this.radEdicionEspecial.Text = "Edicion especial";
             this.radEdicionEspecial.UseVisualStyleBackColor = true;
             // 
             // lblEditorial
             // 
-            this.lblEditorial.AutoSize = true;
-            this.lblEditorial.Location = new System.Drawing.Point(116, 256);
+            resources.ApplyResources(this.lblEditorial, "lblEditorial");
             this.lblEditorial.Name = "lblEditorial";
-            this.lblEditorial.Size = new System.Drawing.Size(44, 13);
-            this.lblEditorial.TabIndex = 20;
-            this.lblEditorial.Text = "Editorial";
             // 
             // lblAutor
             // 
-            this.lblAutor.AutoSize = true;
-            this.lblAutor.Location = new System.Drawing.Point(128, 226);
+            resources.ApplyResources(this.lblAutor, "lblAutor");
             this.lblAutor.Name = "lblAutor";
-            this.lblAutor.Size = new System.Drawing.Size(32, 13);
-            this.lblAutor.TabIndex = 19;
-            this.lblAutor.Text = "Autor";
             // 
             // lblRutaFotografia
             // 
-            this.lblRutaFotografia.AutoSize = true;
-            this.lblRutaFotografia.Location = new System.Drawing.Point(57, 200);
+            resources.ApplyResources(this.lblRutaFotografia, "lblRutaFotografia");
             this.lblRutaFotografia.Name = "lblRutaFotografia";
-            this.lblRutaFotografia.Size = new System.Drawing.Size(103, 13);
-            this.lblRutaFotografia.TabIndex = 18;
-            this.lblRutaFotografia.Text = "Ruta de la fotografia";
             // 
             // lblFechaDePublicacion
             // 
-            this.lblFechaDePublicacion.AutoSize = true;
-            this.lblFechaDePublicacion.Location = new System.Drawing.Point(51, 154);
+            resources.ApplyResources(this.lblFechaDePublicacion, "lblFechaDePublicacion");
             this.lblFechaDePublicacion.Name = "lblFechaDePublicacion";
-            this.lblFechaDePublicacion.Size = new System.Drawing.Size(109, 13);
-            this.lblFechaDePublicacion.TabIndex = 17;
-            this.lblFechaDePublicacion.Text = "Fecha de publicacion";
             // 
             // lblClasificacionDeEdad
             // 
-            this.lblClasificacionDeEdad.AutoSize = true;
-            this.lblClasificacionDeEdad.Location = new System.Drawing.Point(52, 124);
+            resources.ApplyResources(this.lblClasificacionDeEdad, "lblClasificacionDeEdad");
             this.lblClasificacionDeEdad.Name = "lblClasificacionDeEdad";
-            this.lblClasificacionDeEdad.Size = new System.Drawing.Size(108, 13);
-            this.lblClasificacionDeEdad.TabIndex = 16;
-            this.lblClasificacionDeEdad.Text = "Clasificacion de edad";
             // 
             // lblTitulo
             // 
-            this.lblTitulo.AutoSize = true;
-            this.lblTitulo.Location = new System.Drawing.Point(127, 98);
+            resources.ApplyResources(this.lblTitulo, "lblTitulo");
             this.lblTitulo.Name = "lblTitulo";
-            this.lblTitulo.Size = new System.Drawing.Size(33, 13);
-            this.lblTitulo.TabIndex = 15;
-            this.lblTitulo.Text = "Titulo";
             // 
             // lblPrecio
             // 
-            this.lblPrecio.AutoSize = true;
-            this.lblPrecio.Location = new System.Drawing.Point(123, 69);
+            resources.ApplyResources(this.lblPrecio, "lblPrecio");
             this.lblPrecio.Name = "lblPrecio";
-            this.lblPrecio.Size = new System.Drawing.Size(37, 13);
-            this.lblPrecio.TabIndex = 14;
-            this.lblPrecio.Text = "Precio";
             // 
             // lblNoPaginas
             // 
-            this.lblNoPaginas.AutoSize = true;
-            this.lblNoPaginas.Location = new System.Drawing.Point(61, 43);
+            resources.ApplyResources(this.lblNoPaginas, "lblNoPaginas");
             this.lblNoPaginas.Name = "lblNoPaginas";
-            this.lblNoPaginas.Size = new System.Drawing.Size(99, 13);
-            this.lblNoPaginas.TabIndex = 13;
-            this.lblNoPaginas.Text = "Numero de paginas";
             // 
             // btnAbrirFotografia
             // 
-            this.btnAbrirFotografia.Location = new System.Drawing.Point(433, 195);
+            resources.ApplyResources(this.btnAbrirFotografia, "btnAbrirFotografia");
             this.btnAbrirFotografia.Name = "btnAbrirFotografia";
-            this.btnAbrirFotografia.Size = new System.Drawing.Size(65, 23);
-            this.btnAbrirFotografia.TabIndex = 12;
-            this.btnAbrirFotografia.Text = "&Elegir foto";
             this.btnAbrirFotografia.UseVisualStyleBackColor = true;
             this.btnAbrirFotografia.Click += new System.EventHandler(this.btnAbrirFotografia_Click);
             // 
             // picFotografiaNovela
             // 
+            resources.ApplyResources(this.picFotografiaNovela, "picFotografiaNovela");
             this.picFotografiaNovela.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.picFotografiaNovela.Cursor = System.Windows.Forms.Cursors.Arrow;
-            this.picFotografiaNovela.ErrorImage = ((System.Drawing.Image)(resources.GetObject("picFotografiaNovela.ErrorImage")));
-            this.picFotografiaNovela.Image = ((System.Drawing.Image)(resources.GetObject("picFotografiaNovela.Image")));
-            this.picFotografiaNovela.InitialImage = null;
-            this.picFotografiaNovela.Location = new System.Drawing.Point(530, 19);
             this.picFotografiaNovela.Name = "picFotografiaNovela";
-            this.picFotografiaNovela.Size = new System.Drawing.Size(278, 379);
-            this.picFotografiaNovela.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.picFotografiaNovela.TabIndex = 11;
             this.picFotografiaNovela.TabStop = false;
-            this.picFotografiaNovela.WaitOnLoad = true;
             // 
             // txtNumeroDePaginas
             // 
-            this.txtNumeroDePaginas.Location = new System.Drawing.Point(166, 43);
+            resources.ApplyResources(this.txtNumeroDePaginas, "txtNumeroDePaginas");
             this.txtNumeroDePaginas.Name = "txtNumeroDePaginas";
-            this.txtNumeroDePaginas.Size = new System.Drawing.Size(55, 20);
-            this.txtNumeroDePaginas.TabIndex = 1;
             // 
             // btnAgregarNovela
             // 
-            this.btnAgregarNovela.Location = new System.Drawing.Point(349, 323);
+            resources.ApplyResources(this.btnAgregarNovela, "btnAgregarNovela");
             this.btnAgregarNovela.Name = "btnAgregarNovela";
-            this.btnAgregarNovela.Size = new System.Drawing.Size(149, 43);
-            this.btnAgregarNovela.TabIndex = 10;
-            this.btnAgregarNovela.Text = "&Agregar novela";
             this.btnAgregarNovela.UseVisualStyleBackColor = true;
             this.btnAgregarNovela.Click += new System.EventHandler(this.btnAgregarNovela_Click);
             // 
             // txtEditorial
             // 
-            this.txtEditorial.Location = new System.Drawing.Point(166, 249);
+            resources.ApplyResources(this.txtEditorial, "txtEditorial");
             this.txtEditorial.Name = "txtEditorial";
-            this.txtEditorial.Size = new System.Drawing.Size(332, 20);
-            this.txtEditorial.TabIndex = 9;
             // 
             // txtAutor
             // 
-            this.txtAutor.Location = new System.Drawing.Point(166, 223);
+            resources.ApplyResources(this.txtAutor, "txtAutor");
             this.txtAutor.Name = "txtAutor";
-            this.txtAutor.Size = new System.Drawing.Size(332, 20);
-            this.txtAutor.TabIndex = 8;
             // 
             // txtRutaFotografia
             // 
-            this.txtRutaFotografia.Location = new System.Drawing.Point(166, 197);
+            resources.ApplyResources(this.txtRutaFotografia, "txtRutaFotografia");
             this.txtRutaFotografia.Name = "txtRutaFotografia";
             this.txtRutaFotografia.ReadOnly = true;
-            this.txtRutaFotografia.Size = new System.Drawing.Size(261, 20);
-            this.txtRutaFotografia.TabIndex = 7;
             // 
             // chkTieneVersionDigital
             // 
-            this.chkTieneVersionDigital.AutoSize = true;
-            this.chkTieneVersionDigital.Location = new System.Drawing.Point(166, 174);
+            resources.ApplyResources(this.chkTieneVersionDigital, "chkTieneVersionDigital");
             this.chkTieneVersionDigital.Name = "chkTieneVersionDigital";
-            this.chkTieneVersionDigital.Size = new System.Drawing.Size(120, 17);
-            this.chkTieneVersionDigital.TabIndex = 6;
-            this.chkTieneVersionDigital.Text = "&Tiene versión digital";
             this.chkTieneVersionDigital.UseVisualStyleBackColor = true;
             // 
             // dtpFechaDePublicacion
             // 
-            this.dtpFechaDePublicacion.Location = new System.Drawing.Point(166, 148);
+            resources.ApplyResources(this.dtpFechaDePublicacion, "dtpFechaDePublicacion");
             this.dtpFechaDePublicacion.Name = "dtpFechaDePublicacion";
-            this.dtpFechaDePublicacion.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.dtpFechaDePublicacion.Size = new System.Drawing.Size(261, 20);
-            this.dtpFechaDePublicacion.TabIndex = 5;
             // 
             // cboClasificacionEdad
             // 
+            resources.ApplyResources(this.cboClasificacionEdad, "cboClasificacionEdad");
             this.cboClasificacionEdad.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboClasificacionEdad.FormattingEnabled = true;
             this.cboClasificacionEdad.Items.AddRange(new object[] {
-            "E",
-            "M",
-            "Y",
-            "C",
-            "B",
-            "O"});
-            this.cboClasificacionEdad.Location = new System.Drawing.Point(166, 121);
+            resources.GetString("cboClasificacionEdad.Items"),
+            resources.GetString("cboClasificacionEdad.Items1"),
+            resources.GetString("cboClasificacionEdad.Items2"),
+            resources.GetString("cboClasificacionEdad.Items3"),
+            resources.GetString("cboClasificacionEdad.Items4"),
+            resources.GetString("cboClasificacionEdad.Items5")});
             this.cboClasificacionEdad.Name = "cboClasificacionEdad";
-            this.cboClasificacionEdad.Size = new System.Drawing.Size(95, 21);
-            this.cboClasificacionEdad.TabIndex = 4;
             // 
             // txtTitulo
             // 
-            this.txtTitulo.Location = new System.Drawing.Point(166, 95);
+            resources.ApplyResources(this.txtTitulo, "txtTitulo");
             this.txtTitulo.Name = "txtTitulo";
-            this.txtTitulo.Size = new System.Drawing.Size(332, 20);
-            this.txtTitulo.TabIndex = 3;
             // 
             // txtPrecio
             // 
-            this.txtPrecio.Location = new System.Drawing.Point(166, 69);
+            resources.ApplyResources(this.txtPrecio, "txtPrecio");
             this.txtPrecio.Name = "txtPrecio";
-            this.txtPrecio.Size = new System.Drawing.Size(55, 20);
-            this.txtPrecio.TabIndex = 2;
             // 
             // btnEliminarTodasLasNovelas
             // 
+            resources.ApplyResources(this.btnEliminarTodasLasNovelas, "btnEliminarTodasLasNovelas");
             this.btnEliminarTodasLasNovelas.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
             this.btnEliminarTodasLasNovelas.ForeColor = System.Drawing.SystemColors.ButtonFace;
-            this.btnEliminarTodasLasNovelas.Location = new System.Drawing.Point(614, 750);
             this.btnEliminarTodasLasNovelas.Name = "btnEliminarTodasLasNovelas";
-            this.btnEliminarTodasLasNovelas.Size = new System.Drawing.Size(228, 41);
-            this.btnEliminarTodasLasNovelas.TabIndex = 25;
-            this.btnEliminarTodasLasNovelas.Text = "Eliminar todas las novelas";
             this.btnEliminarTodasLasNovelas.UseVisualStyleBackColor = false;
             this.btnEliminarTodasLasNovelas.Click += new System.EventHandler(this.btnEliminarTodasLasNovelas_Click);
             // 
             // btnBorrarNovela
             // 
+            resources.ApplyResources(this.btnBorrarNovela, "btnBorrarNovela");
             this.btnBorrarNovela.BackColor = System.Drawing.SystemColors.Control;
             this.btnBorrarNovela.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.btnBorrarNovela.Location = new System.Drawing.Point(614, 707);
             this.btnBorrarNovela.Name = "btnBorrarNovela";
-            this.btnBorrarNovela.Size = new System.Drawing.Size(230, 37);
-            this.btnBorrarNovela.TabIndex = 24;
-            this.btnBorrarNovela.Text = "&Borrar novela seleccionada";
             this.btnBorrarNovela.UseVisualStyleBackColor = false;
             this.btnBorrarNovela.Click += new System.EventHandler(this.btnBorrarNovela_Click);
             // 
             // dtgNovelas
             // 
+            resources.ApplyResources(this.dtgNovelas, "dtgNovelas");
             this.dtgNovelas.AllowUserToAddRows = false;
             this.dtgNovelas.AllowUserToDeleteRows = false;
             this.dtgNovelas.AllowUserToResizeColumns = false;
@@ -371,53 +282,50 @@
             this.clmnAutor,
             this.clmnEditorial,
             this.clmnTipoDeEdicion});
-            this.dtgNovelas.Location = new System.Drawing.Point(12, 458);
             this.dtgNovelas.Name = "dtgNovelas";
             this.dtgNovelas.ReadOnly = true;
             this.dtgNovelas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgNovelas.Size = new System.Drawing.Size(830, 226);
-            this.dtgNovelas.TabIndex = 1;
             this.dtgNovelas.Click += new System.EventHandler(this.dtgNovelas_Click);
             // 
             // clmnNumeroDePaginas
             // 
-            this.clmnNumeroDePaginas.HeaderText = "Numero de paginas";
+            resources.ApplyResources(this.clmnNumeroDePaginas, "clmnNumeroDePaginas");
             this.clmnNumeroDePaginas.Name = "clmnNumeroDePaginas";
             this.clmnNumeroDePaginas.ReadOnly = true;
             // 
             // clmnPrecio
             // 
-            this.clmnPrecio.HeaderText = "Precio";
+            resources.ApplyResources(this.clmnPrecio, "clmnPrecio");
             this.clmnPrecio.Name = "clmnPrecio";
             this.clmnPrecio.ReadOnly = true;
             // 
             // clmnTitulo
             // 
-            this.clmnTitulo.HeaderText = "Titulo";
+            resources.ApplyResources(this.clmnTitulo, "clmnTitulo");
             this.clmnTitulo.Name = "clmnTitulo";
             this.clmnTitulo.ReadOnly = true;
             // 
             // clmnClasificacionDeEdad
             // 
-            this.clmnClasificacionDeEdad.HeaderText = "Clasificacion de edad";
+            resources.ApplyResources(this.clmnClasificacionDeEdad, "clmnClasificacionDeEdad");
             this.clmnClasificacionDeEdad.Name = "clmnClasificacionDeEdad";
             this.clmnClasificacionDeEdad.ReadOnly = true;
             // 
             // clmnFechaDePublicacion
             // 
-            this.clmnFechaDePublicacion.HeaderText = "Fecha de publicacion";
+            resources.ApplyResources(this.clmnFechaDePublicacion, "clmnFechaDePublicacion");
             this.clmnFechaDePublicacion.Name = "clmnFechaDePublicacion";
             this.clmnFechaDePublicacion.ReadOnly = true;
             // 
             // clmnTieneVersionDigital
             // 
-            this.clmnTieneVersionDigital.HeaderText = "Tiene version digital";
+            resources.ApplyResources(this.clmnTieneVersionDigital, "clmnTieneVersionDigital");
             this.clmnTieneVersionDigital.Name = "clmnTieneVersionDigital";
             this.clmnTieneVersionDigital.ReadOnly = true;
             // 
             // clmnRutaDeFotografia
             // 
-            this.clmnRutaDeFotografia.HeaderText = "Ruta de la fotografia";
+            resources.ApplyResources(this.clmnRutaDeFotografia, "clmnRutaDeFotografia");
             this.clmnRutaDeFotografia.Name = "clmnRutaDeFotografia";
             this.clmnRutaDeFotografia.ReadOnly = true;
             this.clmnRutaDeFotografia.Resizable = System.Windows.Forms.DataGridViewTriState.True;
@@ -425,43 +333,38 @@
             // 
             // clmnAutor
             // 
-            this.clmnAutor.HeaderText = "Autor";
+            resources.ApplyResources(this.clmnAutor, "clmnAutor");
             this.clmnAutor.Name = "clmnAutor";
             this.clmnAutor.ReadOnly = true;
             // 
             // clmnEditorial
             // 
-            this.clmnEditorial.HeaderText = "Editorial";
+            resources.ApplyResources(this.clmnEditorial, "clmnEditorial");
             this.clmnEditorial.Name = "clmnEditorial";
             this.clmnEditorial.ReadOnly = true;
             // 
             // clmnTipoDeEdicion
             // 
-            this.clmnTipoDeEdicion.HeaderText = "Tipo de edicion";
+            resources.ApplyResources(this.clmnTipoDeEdicion, "clmnTipoDeEdicion");
             this.clmnTipoDeEdicion.Name = "clmnTipoDeEdicion";
             this.clmnTipoDeEdicion.ReadOnly = true;
             // 
             // openFileDialog
             // 
             this.openFileDialog.FileName = "openFileDialog1";
-            this.openFileDialog.Filter = "Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif;" +
-    " *.png";
+            resources.ApplyResources(this.openFileDialog, "openFileDialog");
             this.openFileDialog.InitialDirectory = "C:\\";
             // 
             // FormPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(856, 803);
             this.Controls.Add(this.btnBorrarNovela);
             this.Controls.Add(this.btnEliminarTodasLasNovelas);
             this.Controls.Add(this.dtgNovelas);
             this.Controls.Add(this.grbNovelasLiterariasDatos);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormPrincipal";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Novelas Literarias";
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
             this.grbNovelasLiterariasDatos.ResumeLayout(false);
             this.grbNovelasLiterariasDatos.PerformLayout();

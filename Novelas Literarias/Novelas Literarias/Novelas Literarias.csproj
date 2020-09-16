@@ -56,7 +56,10 @@
     <Compile Include="NovelaLiteraria.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SortedList.cs" />
+    <Compile Include="ListaOrdenada.cs" />
+    <EmbeddedResource Include="Form1.es-MX.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

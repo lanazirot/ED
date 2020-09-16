@@ -8,3 +8,6 @@ C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.csproj.CoreCompileInputs.cache
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.exe
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.pdb
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\es-MX\Novelas Literarias.resources.dll
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas_Literarias.FormPrincipal.es-MX.resources
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\es-MX\Novelas Literarias.resources.dll
