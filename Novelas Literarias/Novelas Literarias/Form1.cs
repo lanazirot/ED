@@ -134,9 +134,10 @@ namespace Novelas_Literarias {
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes) {
 
                 listaNovelas.Borrar(currentNovela);
-                RefrescarListaNovelas();
                 currentNovela = null;
+                RefrescarListaNovelas();
                 LimpiarCampos();
+                dtgNovelas.ClearSelection();
             }
 
 

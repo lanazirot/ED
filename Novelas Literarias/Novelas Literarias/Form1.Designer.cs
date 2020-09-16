@@ -364,6 +364,7 @@
             this.Controls.Add(this.btnEliminarTodasLasNovelas);
             this.Controls.Add(this.dtgNovelas);
             this.Controls.Add(this.grbNovelasLiterariasDatos);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormPrincipal";
             this.Load += new System.EventHandler(this.FormPrincipal_Load);
