@@ -232,7 +232,6 @@
             resources.GetString("cboClasificacionEdad.Items5")});
             resources.ApplyResources(this.cboClasificacionEdad, "cboClasificacionEdad");
             this.cboClasificacionEdad.Name = "cboClasificacionEdad";
-          
             // 
             // txtTitulo
             // 
@@ -287,7 +286,7 @@
             this.dtgNovelas.Name = "dtgNovelas";
             this.dtgNovelas.ReadOnly = true;
             this.dtgNovelas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dtgNovelas.Click += new System.EventHandler(this.dtgNovelas_Click);
+            this.dtgNovelas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgNovelas_CellClick);
             // 
             // clmnNumeroDePaginas
             // 
@@ -300,6 +299,7 @@
             resources.ApplyResources(this.clmnPrecio, "clmnPrecio");
             this.clmnPrecio.Name = "clmnPrecio";
             this.clmnPrecio.ReadOnly = true;
+            this.clmnPrecio.DefaultCellStyle.Format = "C";
             // 
             // clmnTitulo
             // 

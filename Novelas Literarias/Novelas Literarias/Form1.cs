@@ -41,6 +41,7 @@ namespace Novelas_Literarias {
                  listaNovelas.Agregar(miNovelaLiteraria);
                  RefrescarListaNovelas();
                  LimpiarCampos();
+                dtgNovelas.ClearSelection();
             }catch(Exception ex) {
                 MessageBox.Show(ex.Message, "Error fatal", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
@@ -59,7 +60,7 @@ namespace Novelas_Literarias {
             picFotografiaNovela.Image = picFotografiaNovela.InitialImage;
             picFotografiaNovela.Update();
             chkTieneVersionDigital.Checked = false;
-
+            dtgNovelas.ClearSelection();
             currentNovela = null;
         }
 
@@ -73,22 +74,7 @@ namespace Novelas_Literarias {
             }
         }
 
-        private void dtgNovelas_Click(object sender, EventArgs e) {
-            if (dtgNovelas.CurrentRow == null) return;
-            currentNovela = new NovelaLiteraria() {
-                NumeroDePaginas = int.Parse(dtgNovelas.CurrentRow.Cells[0].Value.ToString()),
-                Precio = double.Parse(dtgNovelas.CurrentRow.Cells[1].Value.ToString()),
-                Titulo = dtgNovelas.CurrentRow.Cells[2].Value.ToString(),
-                ClasificacionDeEdad = char.Parse(dtgNovelas.CurrentRow.Cells[3].Value.ToString()),
-                FechaDePublicacion = DateTime.Parse(dtgNovelas.CurrentRow.Cells[4].Value.ToString()),
-                TieneVersionDigital = bool.Parse(dtgNovelas.CurrentRow.Cells[5].Value.ToString()),
-                RutaFotografia = dtgNovelas.CurrentRow.Cells[6].Value.ToString(),
-                Autor = dtgNovelas.CurrentRow.Cells[7].Value.ToString(),
-                Editorial = dtgNovelas.CurrentRow.Cells[8].Value.ToString(),
-                TipoDeEdicion = dtgNovelas.CurrentRow.Cells[9].Value.ToString()
-            };
-            VisualizarNovela(currentNovela);
-        }
+
 
         private void VisualizarNovela(NovelaLiteraria currentNovela) {
             txtAutor.Text = currentNovela.Autor;
@@ -138,7 +124,6 @@ namespace Novelas_Literarias {
                 currentNovela = null;
                 RefrescarListaNovelas();
                 LimpiarCampos();
-                dtgNovelas.ClearSelection();
             }
 
 
@@ -158,5 +143,23 @@ namespace Novelas_Literarias {
             LimpiarCampos();
         }
 
+
+
+        private void dtgNovelas_CellClick(object sender, DataGridViewCellEventArgs e) {
+            if (dtgNovelas.CurrentRow == null) return;
+            currentNovela = new NovelaLiteraria() {
+                NumeroDePaginas = int.Parse(dtgNovelas.CurrentRow.Cells[0].Value.ToString()),
+                Precio = double.Parse(dtgNovelas.CurrentRow.Cells[1].Value.ToString()),
+                Titulo = dtgNovelas.CurrentRow.Cells[2].Value.ToString(),
+                ClasificacionDeEdad = char.Parse(dtgNovelas.CurrentRow.Cells[3].Value.ToString()),
+                FechaDePublicacion = DateTime.Parse(dtgNovelas.CurrentRow.Cells[4].Value.ToString()),
+                TieneVersionDigital = bool.Parse(dtgNovelas.CurrentRow.Cells[5].Value.ToString()),
+                RutaFotografia = dtgNovelas.CurrentRow.Cells[6].Value.ToString(),
+                Autor = dtgNovelas.CurrentRow.Cells[7].Value.ToString(),
+                Editorial = dtgNovelas.CurrentRow.Cells[8].Value.ToString(),
+                TipoDeEdicion = dtgNovelas.CurrentRow.Cells[9].Value.ToString()
+            };
+            VisualizarNovela(currentNovela);
+        }
     }
 }
