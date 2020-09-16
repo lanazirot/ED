@@ -1,0 +1,10 @@
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\Novelas Literarias.exe.config
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\Novelas Literarias.exe
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\Novelas Literarias.pdb
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.csprojAssemblyReference.cache
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas_Literarias.FormPrincipal.resources
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas_Literarias.Properties.Resources.resources
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.csproj.GenerateResource.cache
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.csproj.CoreCompileInputs.cache
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.exe
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.pdb
