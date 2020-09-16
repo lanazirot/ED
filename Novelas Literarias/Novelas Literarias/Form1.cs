@@ -1,16 +1,15 @@
 ﻿using System;
-using System.Data;
 using System.Windows.Forms;
 
 namespace Novelas_Literarias {
     public partial class FormPrincipal : Form {
 
-        private SortedList<NovelaLiteraria> listaNovelas;
+        private ListaOrdenada<NovelaLiteraria> listaNovelas;
         private NovelaLiteraria currentNovela = null;
 
         public FormPrincipal() {
             InitializeComponent();
-            listaNovelas = new SortedList<NovelaLiteraria>();
+            listaNovelas = new ListaOrdenada<NovelaLiteraria>();
         }
 
         private void btnAbrirFotografia_Click(object sender, System.EventArgs e) {
@@ -40,7 +39,7 @@ namespace Novelas_Literarias {
                     TipoDeEdicion = radEdicionNormal.Checked ? "Normal" : radEdicionEspecial.Checked ? "Especial" : "Deluxe",
                     Titulo = txtTitulo.Text
                 };
-                 listaNovelas.Add(miNovelaLiteraria);
+                 listaNovelas.Agregar(miNovelaLiteraria);
                  RefrescarListaNovelas();
                  LimpiarCampos();
             }catch(Exception ex) {
@@ -132,7 +131,7 @@ namespace Novelas_Literarias {
             if (MessageBox.Show("Estas a punto de borrar una novela ", "Borrando a "+currentNovela.Titulo, 
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes) {
 
-                listaNovelas.Delete(currentNovela);
+                listaNovelas.Borrar(currentNovela);
                 RefrescarListaNovelas();
             }
 
@@ -143,7 +142,7 @@ namespace Novelas_Literarias {
         private void btnEliminarTodasLasNovelas_Click(object sender, EventArgs e) {
             if (MessageBox.Show("Esta a punto de borrar todas las novelas registradas.", "Advertencia", MessageBoxButtons.YesNo, MessageBoxIcon.Warning) ==
                 DialogResult.Yes) {
-                listaNovelas.Clear();
+                listaNovelas.Limpiar();
                 RefrescarListaNovelas();
                 currentNovela = null;
             }
