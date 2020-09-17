@@ -25,10 +25,10 @@ namespace Novelas_Literarias {
             get {
                 if (EstaVacia || index >= Size)
                     throw new IndexOutOfRangeException("No existe el indice indicado.");
-                Node<T> actual = head;
+                Node<T> currentNode = head;
                 var i = 0;
-                while (i++ < index) actual = actual.NextNode;
-                return actual.Objeto;
+                while (i++ < index) currentNode = currentNode.NextNode;
+                return currentNode.Objeto;
             }
         }
         /// <summary>
@@ -74,20 +74,20 @@ namespace Novelas_Literarias {
         public T Borrar(T obj) {
             if (EstaVacia)
                 throw new Exception("Lista vacia. No se puede borrar ningun elemento.");
-            Node<T> aux = head, prev = null;
+            Node<T> auxNode = head, prevNode = null;
 
-            while (aux != null && !aux.Objeto.Equals(obj)) {
-                prev = aux;
-                aux = aux.NextNode;
+            while (auxNode != null && !auxNode.Objeto.Equals(obj)) {
+                prevNode = auxNode;
+                auxNode = auxNode.NextNode;
             }
 
             Node<T> ret;
-            if (prev == null) {
+            if (prevNode == null) {
                 ret = head;
                 head = head.NextNode;
-            } else if (aux != null) {
-                ret = prev.NextNode;
-                prev.NextNode = aux.NextNode;
+            } else if (auxNode != null) {
+                ret = prevNode.NextNode;
+                prevNode.NextNode = auxNode.NextNode;
             } else throw new Exception("No se encontro el elemento a borrar");
 
             _intSize--;
@@ -121,10 +121,10 @@ namespace Novelas_Literarias {
         public IEnumerator GetEnumerator() {
             if (EstaVacia)
                 yield break;
-            Node<T> nodoInicial = head;
-            while (nodoInicial != null) {
-                yield return nodoInicial.Objeto;
-                nodoInicial = nodoInicial.NextNode;
+            Node<T> currentNode = head;
+            while (currentNode != null) {
+                yield return currentNode.Objeto;
+                currentNode = currentNode.NextNode;
             }
 
         }
