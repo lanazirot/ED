@@ -65,6 +65,7 @@
             this.clmnTipoDeEdicion = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.btnCantidadDeNovelas = new System.Windows.Forms.Button();
+            this.lblInformacionOrdenamientoNovelas = new System.Windows.Forms.Label();
             this.grbNovelasLiterariasDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFotografiaNovela)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgNovelas)).BeginInit();
@@ -366,10 +367,16 @@
             this.btnCantidadDeNovelas.UseVisualStyleBackColor = true;
             this.btnCantidadDeNovelas.Click += new System.EventHandler(this.btnCantidadDeNovelas_Click);
             // 
+            // lblInformacionOrdenamientoNovelas
+            // 
+            resources.ApplyResources(this.lblInformacionOrdenamientoNovelas, "lblInformacionOrdenamientoNovelas");
+            this.lblInformacionOrdenamientoNovelas.Name = "lblInformacionOrdenamientoNovelas";
+            // 
             // FormPrincipal
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.lblInformacionOrdenamientoNovelas);
             this.Controls.Add(this.btnCantidadDeNovelas);
             this.Controls.Add(this.btnBorrarNovela);
             this.Controls.Add(this.btnEliminarTodasLasNovelas);
@@ -384,6 +391,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.picFotografiaNovela)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgNovelas)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -429,6 +437,7 @@
         private System.Windows.Forms.Button btnEliminarTodasLasNovelas;
         private System.Windows.Forms.Button btnLimpiarTodo;
         private System.Windows.Forms.Button btnCantidadDeNovelas;
+        private System.Windows.Forms.Label lblInformacionOrdenamientoNovelas;
     }
 }
 

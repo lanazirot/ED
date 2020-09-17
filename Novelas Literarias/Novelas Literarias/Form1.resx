@@ -970,7 +970,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;grbNovelasLiterariasDatos.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="btnEliminarTodasLasNovelas.Location" type="System.Drawing.Point, System.Drawing">
     <value>372, 701</value>
@@ -994,7 +994,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnEliminarTodasLasNovelas.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="btnBorrarNovela.Location" type="System.Drawing.Point, System.Drawing">
     <value>606, 703</value>
@@ -1018,7 +1018,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnBorrarNovela.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>2</value>
   </data>
   <metadata name="clmnNumeroDePaginas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1099,7 +1099,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;dtgNovelas.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>17, 17</value>
@@ -1129,6 +1129,33 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnCantidadDeNovelas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 442</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.Text" xml:space="preserve">
+    <value>Ordenados por titulo</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Name" xml:space="preserve">
+    <value>lblInformacionOrdenamientoNovelas</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
