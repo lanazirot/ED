@@ -13,8 +13,6 @@ namespace Novelas_Literarias {
 
         private Node<T> head;
 
-        private int _intSize;
-
         /// <summary>
         /// Accesa a cualquier elemento de la lista.
         /// </summary>
@@ -34,9 +32,9 @@ namespace Novelas_Literarias {
         /// <summary>
         /// Devuelve el tamaño de la lista
         /// </summary>
-        public int Size {
-            private set => _intSize = value;
-            get => _intSize;
+        public int Size { 
+            private set;
+            get; 
         }
         /// <summary>
         /// Devuelve true si la lista esta vacia o false en caso contrario
@@ -50,7 +48,7 @@ namespace Novelas_Literarias {
         /// </summary>
         public void Limpiar() {
             head = null;
-            _intSize = 0;
+            Size = 0;
         }
         /// <summary>
         /// Crea una lista ordenada vacia.
@@ -76,22 +74,24 @@ namespace Novelas_Literarias {
                 throw new Exception("Lista vacia. No se puede borrar ningun elemento.");
             Node<T> auxNode = head, prevNode = null;
 
-            while (auxNode != null && !auxNode.Objeto.Equals(obj)) {
+            while (auxNode != null) {
+                if (auxNode.Objeto.CompareTo(obj) == 1)
+                    break;
+                if (auxNode.Objeto.Equals(obj)) {
+                    Node<T> ret = auxNode;
+
+                    if (prevNode != null) { //int
+                        prevNode.NextNode = auxNode.NextNode;
+                    } else { //h
+                        head = head.NextNode;
+                    }
+                     Size--;
+                    return ret.Objeto;
+                }
                 prevNode = auxNode;
                 auxNode = auxNode.NextNode;
             }
-
-            Node<T> ret;
-            if (prevNode == null) {
-                ret = head;
-                head = head.NextNode;
-            } else if (auxNode != null) {
-                ret = prevNode.NextNode;
-                prevNode.NextNode = auxNode.NextNode;
-            } else throw new Exception("No se encontro el elemento a borrar");
-
-            _intSize--;
-            return ret.Objeto;
+            throw new Exception("No se encontro el elemento a borrar");
         }
         /// <summary>
         /// Busca un elemento en la lista y lo devuelve si lo encontró.
@@ -105,14 +105,15 @@ namespace Novelas_Literarias {
             }
 
             Node<T> actual = head;
-            while (actual.NextNode != null) {
+            while (actual != null) {
                 if (actual.Objeto.Equals(obj)) {
                     return actual.Objeto;
-                }
-                actual = actual.NextNode;
+                } else if (obj.CompareTo(actual.Objeto) == -1) {
+                    break;
+                } else actual = actual.NextNode;
             }
 
-            throw new Exception("Elemento no encontrado.");
+            throw new Exception("No encontrado");
         }
         /// <summary>
         /// Iterador de la lista. Recorre del principio a fin
@@ -140,14 +141,14 @@ namespace Novelas_Literarias {
                 prevNode = currentNode;
                 currentNode = currentNode.NextNode;
             }
-            if(prevNode == null) {
+            if(prevNode == null) { //h
                 nuevoNodo.NextNode = head;
                 head = nuevoNodo;
-            } else {
+            } else { //int
                 prevNode.NextNode = nuevoNodo;
                 nuevoNodo.NextNode = currentNode;
             }
-            _intSize++;
+            Size++;
         }
         /// <summary>
         /// Agrega varios objetos a la vez a la lista.

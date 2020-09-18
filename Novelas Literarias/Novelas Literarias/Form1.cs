@@ -137,7 +137,15 @@ namespace Novelas_Literarias {
             if (MessageBox.Show("Estas a punto de borrar una novela ", "Borrando a "+currentNovela.Titulo, 
                 MessageBoxButtons.YesNo, MessageBoxIcon.Warning) == DialogResult.Yes) {
 
-                listaNovelas.Borrar(currentNovela);
+                try {
+                   listaNovelas.Borrar(currentNovela);
+                } catch (Exception ex) {
+                    MessageBox.Show("Error inesperado "+ex.Message, "Operacion fallida"
+                         , MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    return; 
+                }
+                MessageBox.Show("Se elimino a "+currentNovela.Titulo, "Operacion exitosa"
+                    , MessageBoxButtons.OK, MessageBoxIcon.Information);
                 currentNovela = null;
                 RefrescarListaNovelas();
                 LimpiarCampos();
@@ -153,6 +161,8 @@ namespace Novelas_Literarias {
                 listaNovelas.Limpiar();
                 RefrescarListaNovelas();
                 currentNovela = null;
+                MessageBox.Show("Todas las novelas fueron borradas.", "Operacion exitosa"
+                    , MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
         }
 
