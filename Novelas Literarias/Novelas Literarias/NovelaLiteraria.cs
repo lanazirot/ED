@@ -4,6 +4,7 @@ using System.IO;
 namespace Novelas_Literarias {
     public class NovelaLiteraria : IComparable<NovelaLiteraria>, IEquatable<NovelaLiteraria> {
 
+        private long _lngID;
         private int _intNumeroDePaginas;
         private double _dblPrecio;
         private string _strTitulo;
@@ -18,9 +19,10 @@ namespace Novelas_Literarias {
         public NovelaLiteraria() {
         }
 
-        public NovelaLiteraria(int intNumeroDePaginas, double dblPrecio, string strTitulo,
+        public NovelaLiteraria(long lngId, int intNumeroDePaginas, double dblPrecio, string strTitulo,
             char chrClasificacionDeEdad, DateTime dtmFechaDePublicacion, bool blnTieneVersionDigital,
             string strRutaFotografia, string strAutor, string strEditorial, string strTipoDeEdicion) {
+            _lngID = lngId;
             _intNumeroDePaginas = intNumeroDePaginas;
             _dblPrecio = dblPrecio;
             _strTitulo = strTitulo;
@@ -31,6 +33,10 @@ namespace Novelas_Literarias {
             _strAutor = strAutor;
             _strEditorial = strEditorial;
             _strTipoDeEdicion = strTipoDeEdicion;
+        }
+        public long ID {
+            get => _lngID;
+            set =>_lngID = value;
         }
 
         public string TipoDeEdicion {
@@ -130,8 +136,11 @@ namespace Novelas_Literarias {
         }
 
         public bool Equals(NovelaLiteraria other) {
-            return Titulo.Equals(other.Titulo) && Autor.Equals(other.Autor)
-                && Editorial.Equals(other.Editorial) && TipoDeEdicion.Equals(other.TipoDeEdicion);
+            return ID.Equals(other.ID);
+        }
+
+        public override string ToString() {
+            return $"Titulo {Titulo}\nAutor {Autor}\nEditorial {Editorial}\nPrecio {Precio:C}";
         }
     }
 }

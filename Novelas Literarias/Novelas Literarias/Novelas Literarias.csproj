@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="DS">
+      <HintPath>..\..\..\..\source\repos\DS\DS\bin\Debug\netstandard2.0\DS.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -52,11 +55,9 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Node.cs" />
     <Compile Include="NovelaLiteraria.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="ListaOrdenada.cs" />
     <EmbeddedResource Include="Form1.es-MX.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>

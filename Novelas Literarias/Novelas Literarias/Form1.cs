@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using DS;
 /*
  
  @author 19100234
@@ -7,11 +8,11 @@ using System.Windows.Forms;
 namespace Novelas_Literarias {
     public partial class FormPrincipal : Form {
 
-        private ListaOrdenada<NovelaLiteraria> listaNovelas;
+        private SimpleSortedList<NovelaLiteraria> listaNovelas;
         private NovelaLiteraria currentNovela = null;
         public FormPrincipal() {
             InitializeComponent();
-            listaNovelas = new ListaOrdenada<NovelaLiteraria>();
+            listaNovelas = new SimpleSortedList<NovelaLiteraria>();
         }
 
         private void btnAbrirFotografia_Click(object sender, System.EventArgs e) {
@@ -30,6 +31,7 @@ namespace Novelas_Literarias {
             NovelaLiteraria miNovelaLiteraria = null;
             try {
                 miNovelaLiteraria = new NovelaLiteraria() {
+                    ID = long.Parse(txtID.Text),
                     Autor = txtAutor.Text,
                     ClasificacionDeEdad = cboClasificacionEdad.SelectedItem.ToString()[0],
                     Editorial = txtEditorial.Text,
@@ -65,12 +67,13 @@ namespace Novelas_Literarias {
             chkTieneVersionDigital.Checked = false;
             dtgNovelas.ClearSelection();
             currentNovela = null;
+            txtID.Clear();
         }
 
         private void RefrescarListaNovelas() {
             dtgNovelas.Rows.Clear();
             foreach(NovelaLiteraria novela in listaNovelas) {
-                dtgNovelas.Rows.Add(novela.NumeroDePaginas, novela.Precio
+                dtgNovelas.Rows.Add(novela.ID, novela.NumeroDePaginas, novela.Precio
                     , novela.Titulo, novela.ClasificacionDeEdad, novela.FechaDePublicacion.ToShortDateString(),
                     novela.TieneVersionDigital, novela.RutaFotografia, novela.Autor,
                     novela.Editorial, novela.TipoDeEdicion);
@@ -80,6 +83,7 @@ namespace Novelas_Literarias {
 
 
         private void VisualizarNovela(NovelaLiteraria currentNovela) {
+            txtID.Text = currentNovela.ID.ToString();
             txtAutor.Text = currentNovela.Autor;
             txtEditorial.Text = currentNovela.Editorial;
             txtNumeroDePaginas.Text = currentNovela.NumeroDePaginas.ToString();
@@ -144,7 +148,7 @@ namespace Novelas_Literarias {
                          , MessageBoxButtons.OK, MessageBoxIcon.Information);
                     return; 
                 }
-                MessageBox.Show("Se elimino a "+currentNovela.Titulo, "Operacion exitosa"
+                MessageBox.Show("Se elimino a\n"+currentNovela.ToString(), "Operacion exitosa"
                     , MessageBoxButtons.OK, MessageBoxIcon.Information);
                 currentNovela = null;
                 RefrescarListaNovelas();
@@ -161,6 +165,7 @@ namespace Novelas_Literarias {
                 listaNovelas.Limpiar();
                 RefrescarListaNovelas();
                 currentNovela = null;
+                LimpiarCampos();
                 MessageBox.Show("Todas las novelas fueron borradas.", "Operacion exitosa"
                     , MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
@@ -175,16 +180,17 @@ namespace Novelas_Literarias {
         private void dtgNovelas_CellClick(object sender, DataGridViewCellEventArgs e) {
             if (dtgNovelas.CurrentRow == null) return;
             currentNovela = new NovelaLiteraria() {
-                NumeroDePaginas = int.Parse(dtgNovelas.CurrentRow.Cells[0].Value.ToString()),
-                Precio = double.Parse(dtgNovelas.CurrentRow.Cells[1].Value.ToString()),
-                Titulo = dtgNovelas.CurrentRow.Cells[2].Value.ToString(),
-                ClasificacionDeEdad = char.Parse(dtgNovelas.CurrentRow.Cells[3].Value.ToString()),
-                FechaDePublicacion = DateTime.Parse(dtgNovelas.CurrentRow.Cells[4].Value.ToString()),
-                TieneVersionDigital = bool.Parse(dtgNovelas.CurrentRow.Cells[5].Value.ToString()),
-                RutaFotografia = dtgNovelas.CurrentRow.Cells[6].Value.ToString(),
-                Autor = dtgNovelas.CurrentRow.Cells[7].Value.ToString(),
-                Editorial = dtgNovelas.CurrentRow.Cells[8].Value.ToString(),
-                TipoDeEdicion = dtgNovelas.CurrentRow.Cells[9].Value.ToString()
+                ID = long.Parse(dtgNovelas.CurrentRow.Cells[0].Value.ToString()),
+                NumeroDePaginas = int.Parse(dtgNovelas.CurrentRow.Cells[1].Value.ToString()),
+                Precio = double.Parse(dtgNovelas.CurrentRow.Cells[2].Value.ToString()),
+                Titulo = dtgNovelas.CurrentRow.Cells[3].Value.ToString(),
+                ClasificacionDeEdad = char.Parse(dtgNovelas.CurrentRow.Cells[4].Value.ToString()),
+                FechaDePublicacion = DateTime.Parse(dtgNovelas.CurrentRow.Cells[5].Value.ToString()),
+                TieneVersionDigital = bool.Parse(dtgNovelas.CurrentRow.Cells[6].Value.ToString()),
+                RutaFotografia = dtgNovelas.CurrentRow.Cells[7].Value.ToString(),
+                Autor = dtgNovelas.CurrentRow.Cells[8].Value.ToString(),
+                Editorial = dtgNovelas.CurrentRow.Cells[9].Value.ToString(),
+                TipoDeEdicion = dtgNovelas.CurrentRow.Cells[10].Value.ToString()
             };
             VisualizarNovela(currentNovela);
         }
@@ -192,6 +198,28 @@ namespace Novelas_Literarias {
         private void btnCantidadDeNovelas_Click(object sender, EventArgs e) {
             MessageBox.Show(listaNovelas.Size + " novelas registradas", "Informacion de novelas",
                 MessageBoxButtons.OK, MessageBoxIcon.Information);
+        }
+
+        private void btnBuscarNovela_Click(object sender, EventArgs e) {
+
+            try {
+                NovelaLiteraria novela = listaNovelas.Buscar(new NovelaLiteraria() {
+                    ID = long.Parse(txtID.Text)
+                });
+
+                if(novela!=null)
+                    MessageBox.Show("Encontrado exitosamente\n" + novela.ToString(), "Novela encontrada",
+                    MessageBoxButtons.OK, MessageBoxIcon.Information);
+                else
+                    MessageBox.Show("NO encontrado ", "Novela NO encontrada",
+                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            } catch (Exception ex) {
+
+                MessageBox.Show(ex.Message, "Error fatal ",
+                    MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
+
         }
     }
 }

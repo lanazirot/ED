@@ -11,3 +11,6 @@ C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\es-MX\Novelas Literarias.resources.dll
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas_Literarias.FormPrincipal.es-MX.resources
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\es-MX\Novelas Literarias.resources.dll
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\DS.dll
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\DS.pdb
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.csproj.CopyComplete

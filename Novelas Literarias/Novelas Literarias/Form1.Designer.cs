@@ -24,7 +24,7 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grbNovelasLiterariasDatos = new System.Windows.Forms.GroupBox();
             this.btnLimpiarTodo = new System.Windows.Forms.Button();
             this.radEdicionDeluxe = new System.Windows.Forms.RadioButton();
@@ -53,6 +53,13 @@
             this.btnEliminarTodasLasNovelas = new System.Windows.Forms.Button();
             this.btnBorrarNovela = new System.Windows.Forms.Button();
             this.dtgNovelas = new System.Windows.Forms.DataGridView();
+            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
+            this.btnCantidadDeNovelas = new System.Windows.Forms.Button();
+            this.lblInformacionOrdenamientoNovelas = new System.Windows.Forms.Label();
+            this.btnBuscarNovela = new System.Windows.Forms.Button();
+            this.txtID = new System.Windows.Forms.TextBox();
+            this.lblID = new System.Windows.Forms.Label();
+            this.clmnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnNumeroDePaginas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnTitulo = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -63,9 +70,6 @@
             this.clmnAutor = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnEditorial = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnTipoDeEdicion = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
-            this.btnCantidadDeNovelas = new System.Windows.Forms.Button();
-            this.lblInformacionOrdenamientoNovelas = new System.Windows.Forms.Label();
             this.grbNovelasLiterariasDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFotografiaNovela)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgNovelas)).BeginInit();
@@ -73,6 +77,9 @@
             // 
             // grbNovelasLiterariasDatos
             // 
+            this.grbNovelasLiterariasDatos.Controls.Add(this.lblID);
+            this.grbNovelasLiterariasDatos.Controls.Add(this.txtID);
+            this.grbNovelasLiterariasDatos.Controls.Add(this.btnBuscarNovela);
             this.grbNovelasLiterariasDatos.Controls.Add(this.btnLimpiarTodo);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionDeluxe);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionNormal);
@@ -274,6 +281,7 @@
             this.dtgNovelas.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.dtgNovelas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dtgNovelas.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.clmnID,
             this.clmnNumeroDePaginas,
             this.clmnPrecio,
             this.clmnTitulo,
@@ -291,6 +299,46 @@
             this.dtgNovelas.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dtgNovelas.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgNovelas_CellClick);
             // 
+            // openFileDialog
+            // 
+            resources.ApplyResources(this.openFileDialog, "openFileDialog");
+            this.openFileDialog.InitialDirectory = "C:\\";
+            // 
+            // btnCantidadDeNovelas
+            // 
+            resources.ApplyResources(this.btnCantidadDeNovelas, "btnCantidadDeNovelas");
+            this.btnCantidadDeNovelas.Name = "btnCantidadDeNovelas";
+            this.btnCantidadDeNovelas.UseVisualStyleBackColor = true;
+            this.btnCantidadDeNovelas.Click += new System.EventHandler(this.btnCantidadDeNovelas_Click);
+            // 
+            // lblInformacionOrdenamientoNovelas
+            // 
+            resources.ApplyResources(this.lblInformacionOrdenamientoNovelas, "lblInformacionOrdenamientoNovelas");
+            this.lblInformacionOrdenamientoNovelas.Name = "lblInformacionOrdenamientoNovelas";
+            // 
+            // btnBuscarNovela
+            // 
+            resources.ApplyResources(this.btnBuscarNovela, "btnBuscarNovela");
+            this.btnBuscarNovela.Name = "btnBuscarNovela";
+            this.btnBuscarNovela.UseVisualStyleBackColor = true;
+            this.btnBuscarNovela.Click += new System.EventHandler(this.btnBuscarNovela_Click);
+            // 
+            // txtID
+            // 
+            resources.ApplyResources(this.txtID, "txtID");
+            this.txtID.Name = "txtID";
+            // 
+            // lblID
+            // 
+            resources.ApplyResources(this.lblID, "lblID");
+            this.lblID.Name = "lblID";
+            // 
+            // clmnID
+            // 
+            resources.ApplyResources(this.clmnID, "clmnID");
+            this.clmnID.Name = "clmnID";
+            this.clmnID.ReadOnly = true;
+            // 
             // clmnNumeroDePaginas
             // 
             resources.ApplyResources(this.clmnNumeroDePaginas, "clmnNumeroDePaginas");
@@ -299,8 +347,8 @@
             // 
             // clmnPrecio
             // 
-            dataGridViewCellStyle1.Format = "C";
-            this.clmnPrecio.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Format = "C";
+            this.clmnPrecio.DefaultCellStyle = dataGridViewCellStyle3;
             resources.ApplyResources(this.clmnPrecio, "clmnPrecio");
             this.clmnPrecio.Name = "clmnPrecio";
             this.clmnPrecio.ReadOnly = true;
@@ -355,23 +403,6 @@
             this.clmnTipoDeEdicion.Name = "clmnTipoDeEdicion";
             this.clmnTipoDeEdicion.ReadOnly = true;
             // 
-            // openFileDialog
-            // 
-            resources.ApplyResources(this.openFileDialog, "openFileDialog");
-            this.openFileDialog.InitialDirectory = "C:\\";
-            // 
-            // btnCantidadDeNovelas
-            // 
-            resources.ApplyResources(this.btnCantidadDeNovelas, "btnCantidadDeNovelas");
-            this.btnCantidadDeNovelas.Name = "btnCantidadDeNovelas";
-            this.btnCantidadDeNovelas.UseVisualStyleBackColor = true;
-            this.btnCantidadDeNovelas.Click += new System.EventHandler(this.btnCantidadDeNovelas_Click);
-            // 
-            // lblInformacionOrdenamientoNovelas
-            // 
-            resources.ApplyResources(this.lblInformacionOrdenamientoNovelas, "lblInformacionOrdenamientoNovelas");
-            this.lblInformacionOrdenamientoNovelas.Name = "lblInformacionOrdenamientoNovelas";
-            // 
             // FormPrincipal
             // 
             resources.ApplyResources(this, "$this");
@@ -423,6 +454,15 @@
         private System.Windows.Forms.RadioButton radEdicionDeluxe;
         private System.Windows.Forms.RadioButton radEdicionNormal;
         private System.Windows.Forms.RadioButton radEdicionEspecial;
+        private System.Windows.Forms.Button btnBorrarNovela;
+        private System.Windows.Forms.Button btnEliminarTodasLasNovelas;
+        private System.Windows.Forms.Button btnLimpiarTodo;
+        private System.Windows.Forms.Button btnCantidadDeNovelas;
+        private System.Windows.Forms.Label lblInformacionOrdenamientoNovelas;
+        private System.Windows.Forms.Button btnBuscarNovela;
+        private System.Windows.Forms.Label lblID;
+        private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn clmnID;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnNumeroDePaginas;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnPrecio;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnTitulo;
@@ -433,11 +473,6 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnAutor;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnEditorial;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnTipoDeEdicion;
-        private System.Windows.Forms.Button btnBorrarNovela;
-        private System.Windows.Forms.Button btnEliminarTodasLasNovelas;
-        private System.Windows.Forms.Button btnLimpiarTodo;
-        private System.Windows.Forms.Button btnCantidadDeNovelas;
-        private System.Windows.Forms.Label lblInformacionOrdenamientoNovelas;
     }
 }
 

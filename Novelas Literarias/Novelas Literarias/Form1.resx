@@ -117,16 +117,95 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblID.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblID.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="lblID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>128, 24</value>
+  </data>
+  <data name="lblID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>18, 13</value>
+  </data>
+  <data name="lblID.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="lblID.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="&gt;&gt;lblID.Name" xml:space="preserve">
+    <value>lblID</value>
+  </data>
+  <data name="&gt;&gt;lblID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblID.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;lblID.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="txtID.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 17</value>
+  </data>
+  <data name="txtID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="txtID.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;txtID.Name" xml:space="preserve">
+    <value>txtID</value>
+  </data>
+  <data name="&gt;&gt;txtID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;txtID.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;txtID.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnBuscarNovela.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnBuscarNovela.Location" type="System.Drawing.Point, System.Drawing">
+    <value>166, 363</value>
+  </data>
+  <data name="btnBuscarNovela.Size" type="System.Drawing.Size, System.Drawing">
+    <value>332, 43</value>
+  </data>
+  <data name="btnBuscarNovela.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="btnBuscarNovela.Text" xml:space="preserve">
+    <value>&amp;Buscar novela (ID)</value>
+  </data>
+  <data name="&gt;&gt;btnBuscarNovela.Name" xml:space="preserve">
+    <value>btnBuscarNovela</value>
+  </data>
+  <data name="&gt;&gt;btnBuscarNovela.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnBuscarNovela.Parent" xml:space="preserve">
+    <value>grbNovelasLiterariasDatos</value>
+  </data>
+  <data name="&gt;&gt;btnBuscarNovela.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
   <data name="btnLimpiarTodo.Location" type="System.Drawing.Point, System.Drawing">
     <value>6, 380</value>
   </data>
   <data name="btnLimpiarTodo.Size" type="System.Drawing.Size, System.Drawing">
     <value>92, 26</value>
   </data>
-  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="btnLimpiarTodo.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+    <value>16</value>
   </data>
   <data name="btnLimpiarTodo.Text" xml:space="preserve">
     <value>&amp;Limpiar campos</value>
@@ -141,7 +220,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;btnLimpiarTodo.ZOrder" xml:space="preserve">
-    <value>0</value>
+    <value>3</value>
   </data>
   <data name="radEdicionDeluxe.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -153,7 +232,7 @@
     <value>94, 17</value>
   </data>
   <data name="radEdicionDeluxe.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
+    <value>13</value>
   </data>
   <data name="radEdicionDeluxe.Text" xml:space="preserve">
     <value>Edicion deluxe</value>
@@ -168,7 +247,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;radEdicionDeluxe.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>4</value>
   </data>
   <data name="radEdicionNormal.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -180,7 +259,7 @@
     <value>94, 17</value>
   </data>
   <data name="radEdicionNormal.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
+    <value>11</value>
   </data>
   <data name="radEdicionNormal.Text" xml:space="preserve">
     <value>Edicion normal</value>
@@ -195,7 +274,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;radEdicionNormal.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>5</value>
   </data>
   <data name="radEdicionEspecial.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -207,7 +286,7 @@
     <value>102, 17</value>
   </data>
   <data name="radEdicionEspecial.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
+    <value>12</value>
   </data>
   <data name="radEdicionEspecial.Text" xml:space="preserve">
     <value>Edicion especial</value>
@@ -222,7 +301,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;radEdicionEspecial.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>6</value>
   </data>
   <data name="lblEditorial.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -249,7 +328,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblEditorial.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>7</value>
   </data>
   <data name="lblAutor.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -276,7 +355,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblAutor.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>8</value>
   </data>
   <data name="lblRutaFotografia.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -303,7 +382,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblRutaFotografia.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>9</value>
   </data>
   <data name="lblFechaDePublicacion.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -330,7 +409,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblFechaDePublicacion.ZOrder" xml:space="preserve">
-    <value>7</value>
+    <value>10</value>
   </data>
   <data name="lblClasificacionDeEdad.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -357,7 +436,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblClasificacionDeEdad.ZOrder" xml:space="preserve">
-    <value>8</value>
+    <value>11</value>
   </data>
   <data name="lblTitulo.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -384,7 +463,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblTitulo.ZOrder" xml:space="preserve">
-    <value>9</value>
+    <value>12</value>
   </data>
   <data name="lblPrecio.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -411,7 +490,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblPrecio.ZOrder" xml:space="preserve">
-    <value>10</value>
+    <value>13</value>
   </data>
   <data name="lblNoPaginas.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -438,7 +517,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;lblNoPaginas.ZOrder" xml:space="preserve">
-    <value>11</value>
+    <value>14</value>
   </data>
   <data name="btnAbrirFotografia.Location" type="System.Drawing.Point, System.Drawing">
     <value>433, 195</value>
@@ -447,7 +526,7 @@
     <value>65, 23</value>
   </data>
   <data name="btnAbrirFotografia.TabIndex" type="System.Int32, mscorlib">
-    <value>7</value>
+    <value>8</value>
   </data>
   <data name="btnAbrirFotografia.Text" xml:space="preserve">
     <value>&amp;Elegir foto</value>
@@ -462,7 +541,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;btnAbrirFotografia.ZOrder" xml:space="preserve">
-    <value>12</value>
+    <value>15</value>
   </data>
   <data name="picFotografiaNovela.ErrorImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -686,7 +765,6 @@
   <data name="picFotografiaNovela.Size" type="System.Drawing.Size, System.Drawing">
     <value>294, 393</value>
   </data>
-  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="picFotografiaNovela.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>StretchImage</value>
   </data>
@@ -706,7 +784,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;picFotografiaNovela.ZOrder" xml:space="preserve">
-    <value>13</value>
+    <value>16</value>
   </data>
   <data name="txtNumeroDePaginas.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 43</value>
@@ -715,7 +793,7 @@
     <value>55, 20</value>
   </data>
   <data name="txtNumeroDePaginas.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
+    <value>2</value>
   </data>
   <data name="&gt;&gt;txtNumeroDePaginas.Name" xml:space="preserve">
     <value>txtNumeroDePaginas</value>
@@ -727,16 +805,16 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;txtNumeroDePaginas.ZOrder" xml:space="preserve">
-    <value>14</value>
+    <value>17</value>
   </data>
   <data name="btnAgregarNovela.Location" type="System.Drawing.Point, System.Drawing">
-    <value>166, 323</value>
+    <value>166, 314</value>
   </data>
   <data name="btnAgregarNovela.Size" type="System.Drawing.Size, System.Drawing">
     <value>332, 43</value>
   </data>
   <data name="btnAgregarNovela.TabIndex" type="System.Int32, mscorlib">
-    <value>13</value>
+    <value>14</value>
   </data>
   <data name="btnAgregarNovela.Text" xml:space="preserve">
     <value>&amp;Agregar novela</value>
@@ -751,7 +829,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;btnAgregarNovela.ZOrder" xml:space="preserve">
-    <value>15</value>
+    <value>18</value>
   </data>
   <data name="txtEditorial.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 249</value>
@@ -760,7 +838,7 @@
     <value>332, 20</value>
   </data>
   <data name="txtEditorial.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
+    <value>10</value>
   </data>
   <data name="&gt;&gt;txtEditorial.Name" xml:space="preserve">
     <value>txtEditorial</value>
@@ -772,7 +850,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;txtEditorial.ZOrder" xml:space="preserve">
-    <value>16</value>
+    <value>19</value>
   </data>
   <data name="txtAutor.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 223</value>
@@ -781,7 +859,7 @@
     <value>332, 20</value>
   </data>
   <data name="txtAutor.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
+    <value>9</value>
   </data>
   <data name="&gt;&gt;txtAutor.Name" xml:space="preserve">
     <value>txtAutor</value>
@@ -793,7 +871,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;txtAutor.ZOrder" xml:space="preserve">
-    <value>17</value>
+    <value>20</value>
   </data>
   <data name="txtRutaFotografia.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 197</value>
@@ -814,7 +892,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;txtRutaFotografia.ZOrder" xml:space="preserve">
-    <value>18</value>
+    <value>21</value>
   </data>
   <data name="chkTieneVersionDigital.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -826,7 +904,7 @@
     <value>120, 17</value>
   </data>
   <data name="chkTieneVersionDigital.TabIndex" type="System.Int32, mscorlib">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="chkTieneVersionDigital.Text" xml:space="preserve">
     <value>&amp;Tiene versión digital</value>
@@ -841,7 +919,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;chkTieneVersionDigital.ZOrder" xml:space="preserve">
-    <value>19</value>
+    <value>22</value>
   </data>
   <data name="dtpFechaDePublicacion.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 148</value>
@@ -853,7 +931,7 @@
     <value>261, 20</value>
   </data>
   <data name="dtpFechaDePublicacion.TabIndex" type="System.Int32, mscorlib">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="&gt;&gt;dtpFechaDePublicacion.Name" xml:space="preserve">
     <value>dtpFechaDePublicacion</value>
@@ -865,7 +943,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;dtpFechaDePublicacion.ZOrder" xml:space="preserve">
-    <value>20</value>
+    <value>23</value>
   </data>
   <data name="cboClasificacionEdad.Items" xml:space="preserve">
     <value>E - Everyone (para todos)</value>
@@ -892,7 +970,7 @@
     <value>261, 21</value>
   </data>
   <data name="cboClasificacionEdad.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="&gt;&gt;cboClasificacionEdad.Name" xml:space="preserve">
     <value>cboClasificacionEdad</value>
@@ -904,7 +982,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;cboClasificacionEdad.ZOrder" xml:space="preserve">
-    <value>21</value>
+    <value>24</value>
   </data>
   <data name="txtTitulo.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 95</value>
@@ -913,7 +991,7 @@
     <value>332, 20</value>
   </data>
   <data name="txtTitulo.TabIndex" type="System.Int32, mscorlib">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="&gt;&gt;txtTitulo.Name" xml:space="preserve">
     <value>txtTitulo</value>
@@ -925,7 +1003,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;txtTitulo.ZOrder" xml:space="preserve">
-    <value>22</value>
+    <value>25</value>
   </data>
   <data name="txtPrecio.Location" type="System.Drawing.Point, System.Drawing">
     <value>166, 69</value>
@@ -934,7 +1012,7 @@
     <value>55, 20</value>
   </data>
   <data name="txtPrecio.TabIndex" type="System.Int32, mscorlib">
-    <value>2</value>
+    <value>3</value>
   </data>
   <data name="&gt;&gt;txtPrecio.Name" xml:space="preserve">
     <value>txtPrecio</value>
@@ -946,7 +1024,7 @@
     <value>grbNovelasLiterariasDatos</value>
   </data>
   <data name="&gt;&gt;txtPrecio.ZOrder" xml:space="preserve">
-    <value>23</value>
+    <value>26</value>
   </data>
   <data name="grbNovelasLiterariasDatos.Location" type="System.Drawing.Point, System.Drawing">
     <value>12, 12</value>
@@ -979,7 +1057,7 @@
     <value>228, 41</value>
   </data>
   <data name="btnEliminarTodasLasNovelas.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
+    <value>18</value>
   </data>
   <data name="btnEliminarTodasLasNovelas.Text" xml:space="preserve">
     <value>Eliminar todas las novelas</value>
@@ -1003,7 +1081,7 @@
     <value>230, 37</value>
   </data>
   <data name="btnBorrarNovela.TabIndex" type="System.Int32, mscorlib">
-    <value>24</value>
+    <value>19</value>
   </data>
   <data name="btnBorrarNovela.Text" xml:space="preserve">
     <value>&amp;Borrar novela seleccionada</value>
@@ -1019,6 +1097,123 @@
   </data>
   <data name="&gt;&gt;btnBorrarNovela.ZOrder" xml:space="preserve">
     <value>2</value>
+  </data>
+  <metadata name="clmnID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnNumeroDePaginas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnPrecio.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnTitulo.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnClasificacionDeEdad.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnFechaDePublicacion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnTieneVersionDigital.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnRutaDeFotografia.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnAutor.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnEditorial.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <metadata name="clmnTipoDeEdicion.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="dtgNovelas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 458</value>
+  </data>
+  <data name="dtgNovelas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>830, 226</value>
+  </data>
+  <data name="dtgNovelas.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.Name" xml:space="preserve">
+    <value>dtgNovelas</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;dtgNovelas.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="openFileDialog.Filter" xml:space="preserve">
+    <value>Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png</value>
+  </data>
+  <data name="btnCantidadDeNovelas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 690</value>
+  </data>
+  <data name="btnCantidadDeNovelas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 50</value>
+  </data>
+  <data name="btnCantidadDeNovelas.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="btnCantidadDeNovelas.Text" xml:space="preserve">
+    <value>Ver cantidad de novelas registradas</value>
+  </data>
+  <data name="&gt;&gt;btnCantidadDeNovelas.Name" xml:space="preserve">
+    <value>btnCantidadDeNovelas</value>
+  </data>
+  <data name="&gt;&gt;btnCantidadDeNovelas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCantidadDeNovelas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCantidadDeNovelas.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.Location" type="System.Drawing.Point, System.Drawing">
+    <value>15, 442</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.Size" type="System.Drawing.Size, System.Drawing">
+    <value>102, 13</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="lblInformacionOrdenamientoNovelas.Text" xml:space="preserve">
+    <value>Ordenados por titulo</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Name" xml:space="preserve">
+    <value>lblInformacionOrdenamientoNovelas</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="clmnID.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="clmnID.HeaderText" xml:space="preserve">
+    <value>ID</value>
   </data>
   <metadata name="clmnNumeroDePaginas.UserAddedColumn" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -1079,84 +1274,6 @@
   </metadata>
   <data name="clmnTipoDeEdicion.HeaderText" xml:space="preserve">
     <value>Tipo de edicion</value>
-  </data>
-  <data name="dtgNovelas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 458</value>
-  </data>
-  <data name="dtgNovelas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>830, 226</value>
-  </data>
-  <data name="dtgNovelas.TabIndex" type="System.Int32, mscorlib">
-    <value>1</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.Name" xml:space="preserve">
-    <value>dtgNovelas</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.DataGridView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;dtgNovelas.ZOrder" xml:space="preserve">
-    <value>4</value>
-  </data>
-  <metadata name="openFileDialog.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>17, 17</value>
-  </metadata>
-  <data name="openFileDialog.Filter" xml:space="preserve">
-    <value>Image files (*.jpg, *.jpeg, *.jpe, *.jfif, *.png) | *.jpg; *.jpeg; *.jpe; *.jfif; *.png</value>
-  </data>
-  <data name="btnCantidadDeNovelas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>12, 690</value>
-  </data>
-  <data name="btnCantidadDeNovelas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>79, 50</value>
-  </data>
-  <data name="btnCantidadDeNovelas.TabIndex" type="System.Int32, mscorlib">
-    <value>25</value>
-  </data>
-  <data name="btnCantidadDeNovelas.Text" xml:space="preserve">
-    <value>Ver cantidad de novelas registradas</value>
-  </data>
-  <data name="&gt;&gt;btnCantidadDeNovelas.Name" xml:space="preserve">
-    <value>btnCantidadDeNovelas</value>
-  </data>
-  <data name="&gt;&gt;btnCantidadDeNovelas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;btnCantidadDeNovelas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;btnCantidadDeNovelas.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
-  <data name="lblInformacionOrdenamientoNovelas.AutoSize" type="System.Boolean, mscorlib">
-    <value>True</value>
-  </data>
-  <data name="lblInformacionOrdenamientoNovelas.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 442</value>
-  </data>
-  <data name="lblInformacionOrdenamientoNovelas.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 13</value>
-  </data>
-  <data name="lblInformacionOrdenamientoNovelas.TabIndex" type="System.Int32, mscorlib">
-    <value>26</value>
-  </data>
-  <data name="lblInformacionOrdenamientoNovelas.Text" xml:space="preserve">
-    <value>Ordenados por titulo</value>
-  </data>
-  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Name" xml:space="preserve">
-    <value>lblInformacionOrdenamientoNovelas</value>
-  </data>
-  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;lblInformacionOrdenamientoNovelas.ZOrder" xml:space="preserve">
-    <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -2305,6 +2422,18 @@
   <data name="$this.Text" xml:space="preserve">
     <value>Novelas Literarias</value>
   </data>
+  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
+    <value>openFileDialog</value>
+  </data>
+  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
+    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;clmnID.Name" xml:space="preserve">
+    <value>clmnID</value>
+  </data>
+  <data name="&gt;&gt;clmnID.Type" xml:space="preserve">
+    <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="&gt;&gt;clmnNumeroDePaginas.Name" xml:space="preserve">
     <value>clmnNumeroDePaginas</value>
   </data>
@@ -2364,12 +2493,6 @@
   </data>
   <data name="&gt;&gt;clmnTipoDeEdicion.Type" xml:space="preserve">
     <value>System.Windows.Forms.DataGridViewTextBoxColumn, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog.Name" xml:space="preserve">
-    <value>openFileDialog</value>
-  </data>
-  <data name="&gt;&gt;openFileDialog.Type" xml:space="preserve">
-    <value>System.Windows.Forms.OpenFileDialog, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>FormPrincipal</value>
