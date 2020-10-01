@@ -203,9 +203,14 @@ namespace Novelas_Literarias {
         private void btnBuscarNovela_Click(object sender, EventArgs e) {
 
             try {
-                NovelaLiteraria novela = listaNovelas.Buscar(new NovelaLiteraria() {
-                    ID = long.Parse(txtID.Text)
-                });
+                NovelaLiteraria novela = null;
+                
+                foreach(NovelaLiteraria nov in listaNovelas) {
+                    if(nov.ID == long.Parse(txtID.Text)) {
+                        novela = nov;
+                        break;
+                    }
+                }
 
                 if(novela!=null)
                     MessageBox.Show("Encontrado exitosamente\n" + novela.ToString(), "Novela encontrada",
