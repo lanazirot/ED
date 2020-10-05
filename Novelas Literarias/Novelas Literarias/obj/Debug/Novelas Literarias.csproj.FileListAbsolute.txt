@@ -14,3 +14,4 @@ C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\DS.dll
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\bin\Debug\DS.pdb
 C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas Literarias.csproj.CopyComplete
+C:\Users\alanc\Desktop\Novelas Literarias\Novelas Literarias\Novelas Literarias\obj\Debug\Novelas_Literarias.Inicio.resources

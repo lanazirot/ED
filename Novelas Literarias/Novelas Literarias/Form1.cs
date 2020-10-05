@@ -8,11 +8,12 @@ using DS;
 namespace Novelas_Literarias {
     public partial class FormPrincipal : Form {
 
+
         private SimpleSortedList<NovelaLiteraria> listaNovelas;
         private NovelaLiteraria currentNovela = null;
-        public FormPrincipal() {
+        public FormPrincipal(bool blnOrdenados=true, bool blnDuplicados=false) {
             InitializeComponent();
-            listaNovelas = new SimpleSortedList<NovelaLiteraria>();
+            listaNovelas = new SimpleSortedList<NovelaLiteraria>(blnDuplicados, blnOrdenados);
         }
 
         private void btnAbrirFotografia_Click(object sender, System.EventArgs e) {
@@ -226,5 +227,8 @@ namespace Novelas_Literarias {
             }
 
         }
+
+        
+
     }
 }
