@@ -24,8 +24,10 @@
         /// </summary>
         private void InitializeComponent() {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.grbNovelasLiterariasDatos = new System.Windows.Forms.GroupBox();
+            this.lblID = new System.Windows.Forms.Label();
+            this.txtID = new System.Windows.Forms.TextBox();
             this.btnLimpiarTodo = new System.Windows.Forms.Button();
             this.radEdicionDeluxe = new System.Windows.Forms.RadioButton();
             this.radEdicionNormal = new System.Windows.Forms.RadioButton();
@@ -56,9 +58,12 @@
             this.openFileDialog = new System.Windows.Forms.OpenFileDialog();
             this.btnCantidadDeNovelas = new System.Windows.Forms.Button();
             this.lblInformacionOrdenamientoNovelas = new System.Windows.Forms.Label();
+            this.tabPrincipal = new System.Windows.Forms.TabControl();
+            this.tabInsertarDatos = new System.Windows.Forms.TabPage();
+            this.tabBuscar = new System.Windows.Forms.TabPage();
             this.btnBuscarNovela = new System.Windows.Forms.Button();
-            this.txtID = new System.Windows.Forms.TextBox();
-            this.lblID = new System.Windows.Forms.Label();
+            this.txtBuscarNovela = new System.Windows.Forms.TextBox();
+            this.lblQueBuscas = new System.Windows.Forms.Label();
             this.clmnID = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnNumeroDePaginas = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.clmnPrecio = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -73,13 +78,15 @@
             this.grbNovelasLiterariasDatos.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFotografiaNovela)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgNovelas)).BeginInit();
+            this.tabPrincipal.SuspendLayout();
+            this.tabInsertarDatos.SuspendLayout();
+            this.tabBuscar.SuspendLayout();
             this.SuspendLayout();
             // 
             // grbNovelasLiterariasDatos
             // 
             this.grbNovelasLiterariasDatos.Controls.Add(this.lblID);
             this.grbNovelasLiterariasDatos.Controls.Add(this.txtID);
-            this.grbNovelasLiterariasDatos.Controls.Add(this.btnBuscarNovela);
             this.grbNovelasLiterariasDatos.Controls.Add(this.btnLimpiarTodo);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionDeluxe);
             this.grbNovelasLiterariasDatos.Controls.Add(this.radEdicionNormal);
@@ -107,6 +114,16 @@
             resources.ApplyResources(this.grbNovelasLiterariasDatos, "grbNovelasLiterariasDatos");
             this.grbNovelasLiterariasDatos.Name = "grbNovelasLiterariasDatos";
             this.grbNovelasLiterariasDatos.TabStop = false;
+            // 
+            // lblID
+            // 
+            resources.ApplyResources(this.lblID, "lblID");
+            this.lblID.Name = "lblID";
+            // 
+            // txtID
+            // 
+            resources.ApplyResources(this.txtID, "txtID");
+            this.txtID.Name = "txtID";
             // 
             // btnLimpiarTodo
             // 
@@ -316,6 +333,30 @@
             resources.ApplyResources(this.lblInformacionOrdenamientoNovelas, "lblInformacionOrdenamientoNovelas");
             this.lblInformacionOrdenamientoNovelas.Name = "lblInformacionOrdenamientoNovelas";
             // 
+            // tabPrincipal
+            // 
+            this.tabPrincipal.Controls.Add(this.tabInsertarDatos);
+            this.tabPrincipal.Controls.Add(this.tabBuscar);
+            resources.ApplyResources(this.tabPrincipal, "tabPrincipal");
+            this.tabPrincipal.Name = "tabPrincipal";
+            this.tabPrincipal.SelectedIndex = 0;
+            // 
+            // tabInsertarDatos
+            // 
+            this.tabInsertarDatos.Controls.Add(this.grbNovelasLiterariasDatos);
+            resources.ApplyResources(this.tabInsertarDatos, "tabInsertarDatos");
+            this.tabInsertarDatos.Name = "tabInsertarDatos";
+            this.tabInsertarDatos.UseVisualStyleBackColor = true;
+            // 
+            // tabBuscar
+            // 
+            this.tabBuscar.Controls.Add(this.lblQueBuscas);
+            this.tabBuscar.Controls.Add(this.txtBuscarNovela);
+            this.tabBuscar.Controls.Add(this.btnBuscarNovela);
+            resources.ApplyResources(this.tabBuscar, "tabBuscar");
+            this.tabBuscar.Name = "tabBuscar";
+            this.tabBuscar.UseVisualStyleBackColor = true;
+            // 
             // btnBuscarNovela
             // 
             resources.ApplyResources(this.btnBuscarNovela, "btnBuscarNovela");
@@ -323,15 +364,15 @@
             this.btnBuscarNovela.UseVisualStyleBackColor = true;
             this.btnBuscarNovela.Click += new System.EventHandler(this.btnBuscarNovela_Click);
             // 
-            // txtID
+            // txtBuscarNovela
             // 
-            resources.ApplyResources(this.txtID, "txtID");
-            this.txtID.Name = "txtID";
+            resources.ApplyResources(this.txtBuscarNovela, "txtBuscarNovela");
+            this.txtBuscarNovela.Name = "txtBuscarNovela";
             // 
-            // lblID
+            // lblQueBuscas
             // 
-            resources.ApplyResources(this.lblID, "lblID");
-            this.lblID.Name = "lblID";
+            resources.ApplyResources(this.lblQueBuscas, "lblQueBuscas");
+            this.lblQueBuscas.Name = "lblQueBuscas";
             // 
             // clmnID
             // 
@@ -347,8 +388,8 @@
             // 
             // clmnPrecio
             // 
-            dataGridViewCellStyle3.Format = "C";
-            this.clmnPrecio.DefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle2.Format = "C";
+            this.clmnPrecio.DefaultCellStyle = dataGridViewCellStyle2;
             resources.ApplyResources(this.clmnPrecio, "clmnPrecio");
             this.clmnPrecio.Name = "clmnPrecio";
             this.clmnPrecio.ReadOnly = true;
@@ -407,12 +448,12 @@
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.tabPrincipal);
             this.Controls.Add(this.lblInformacionOrdenamientoNovelas);
             this.Controls.Add(this.btnCantidadDeNovelas);
             this.Controls.Add(this.btnBorrarNovela);
             this.Controls.Add(this.btnEliminarTodasLasNovelas);
             this.Controls.Add(this.dtgNovelas);
-            this.Controls.Add(this.grbNovelasLiterariasDatos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.Name = "FormPrincipal";
@@ -421,6 +462,10 @@
             this.grbNovelasLiterariasDatos.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picFotografiaNovela)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dtgNovelas)).EndInit();
+            this.tabPrincipal.ResumeLayout(false);
+            this.tabInsertarDatos.ResumeLayout(false);
+            this.tabBuscar.ResumeLayout(false);
+            this.tabBuscar.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -459,9 +504,14 @@
         private System.Windows.Forms.Button btnLimpiarTodo;
         private System.Windows.Forms.Button btnCantidadDeNovelas;
         private System.Windows.Forms.Label lblInformacionOrdenamientoNovelas;
-        private System.Windows.Forms.Button btnBuscarNovela;
         private System.Windows.Forms.Label lblID;
         private System.Windows.Forms.TextBox txtID;
+        private System.Windows.Forms.TabControl tabPrincipal;
+        private System.Windows.Forms.TabPage tabInsertarDatos;
+        private System.Windows.Forms.TabPage tabBuscar;
+        private System.Windows.Forms.Button btnBuscarNovela;
+        private System.Windows.Forms.Label lblQueBuscas;
+        private System.Windows.Forms.TextBox txtBuscarNovela;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnID;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnNumeroDePaginas;
         private System.Windows.Forms.DataGridViewTextBoxColumn clmnPrecio;

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Windows.Forms;
 using DS;
 /*
@@ -32,7 +33,7 @@ namespace Novelas_Literarias {
             NovelaLiteraria miNovelaLiteraria = null;
             try {
                 miNovelaLiteraria = new NovelaLiteraria() {
-                    ID = long.Parse(txtID.Text),
+                    ISBN = long.Parse(txtID.Text),
                     Autor = txtAutor.Text,
                     ClasificacionDeEdad = cboClasificacionEdad.SelectedItem.ToString()[0],
                     Editorial = txtEditorial.Text,
@@ -74,7 +75,7 @@ namespace Novelas_Literarias {
         private void RefrescarListaNovelas() {
             dtgNovelas.Rows.Clear();
             foreach(NovelaLiteraria novela in listaNovelas) {
-                dtgNovelas.Rows.Add(novela.ID, novela.NumeroDePaginas, novela.Precio
+                dtgNovelas.Rows.Add(novela.ISBN, novela.NumeroDePaginas, novela.Precio
                     , novela.Titulo, novela.ClasificacionDeEdad, novela.FechaDePublicacion.ToShortDateString(),
                     novela.TieneVersionDigital, novela.RutaFotografia, novela.Autor,
                     novela.Editorial, novela.TipoDeEdicion);
@@ -84,7 +85,7 @@ namespace Novelas_Literarias {
 
 
         private void VisualizarNovela(NovelaLiteraria currentNovela) {
-            txtID.Text = currentNovela.ID.ToString();
+            txtID.Text = currentNovela.ISBN.ToString();
             txtAutor.Text = currentNovela.Autor;
             txtEditorial.Text = currentNovela.Editorial;
             txtNumeroDePaginas.Text = currentNovela.NumeroDePaginas.ToString();
@@ -180,8 +181,13 @@ namespace Novelas_Literarias {
 
         private void dtgNovelas_CellClick(object sender, DataGridViewCellEventArgs e) {
             if (dtgNovelas.CurrentRow == null) return;
+            SetCurrentNovela();
+            VisualizarNovela(currentNovela);
+        }
+
+        private void SetCurrentNovela() {
             currentNovela = new NovelaLiteraria() {
-                ID = long.Parse(dtgNovelas.CurrentRow.Cells[0].Value.ToString()),
+                ISBN = long.Parse(dtgNovelas.CurrentRow.Cells[0].Value.ToString()),
                 NumeroDePaginas = int.Parse(dtgNovelas.CurrentRow.Cells[1].Value.ToString()),
                 Precio = double.Parse(dtgNovelas.CurrentRow.Cells[2].Value.ToString()),
                 Titulo = dtgNovelas.CurrentRow.Cells[3].Value.ToString(),
@@ -193,8 +199,8 @@ namespace Novelas_Literarias {
                 Editorial = dtgNovelas.CurrentRow.Cells[9].Value.ToString(),
                 TipoDeEdicion = dtgNovelas.CurrentRow.Cells[10].Value.ToString()
             };
-            VisualizarNovela(currentNovela);
         }
+
 
         private void btnCantidadDeNovelas_Click(object sender, EventArgs e) {
             MessageBox.Show(listaNovelas.Size + " novelas registradas", "Informacion de novelas",
@@ -203,32 +209,32 @@ namespace Novelas_Literarias {
 
         private void btnBuscarNovela_Click(object sender, EventArgs e) {
 
-            try {
-                NovelaLiteraria novela = null;
-                
-                foreach(NovelaLiteraria nov in listaNovelas) {
-                    if(nov.ID == long.Parse(txtID.Text)) {
-                        novela = nov;
-                        break;
-                    }
-                }
+            NovelaLiteraria novelaQueBusco;
 
-                if(novela!=null)
-                    MessageBox.Show("Encontrado exitosamente\n" + novela.ToString(), "Novela encontrada",
-                    MessageBoxButtons.OK, MessageBoxIcon.Information);
-                else
-                    MessageBox.Show("NO encontrado ", "Novela NO encontrada",
-                     MessageBoxButtons.OK, MessageBoxIcon.Warning);
-            } catch (Exception ex) {
+            novelaQueBusco = listaNovelas.BuscarSi(n => n.ISBN == long.Parse(txtBuscarNovela.Text));
 
-                MessageBox.Show(ex.Message, "Error fatal ",
-                    MessageBoxButtons.OK, MessageBoxIcon.Error);
-                return;
+            if (novelaQueBusco != default) {
+                MessageBox.Show("Encontrado!!");
+                ResaltarNovela(novelaQueBusco.ISBN.ToString());
+            } else {
+                MessageBox.Show("Noooo!");
             }
 
         }
 
-        
+        private void ResaltarNovela(string strID) {
+            DataGridViewRow seleccionada =
+                dtgNovelas.Rows.Cast<DataGridViewRow>()
+                .Where(row => row.Cells["clmnID"].Value.ToString().Equals(strID))
+                .First();
 
+            dtgNovelas.Rows[seleccionada.Index].Selected = true;
+            dtgNovelas.CurrentCell  = dtgNovelas.Rows[seleccionada.Index].Cells[0];
+
+            SetCurrentNovela();
+            VisualizarNovela(currentNovela);
+
+        }
+    
     }
 }
